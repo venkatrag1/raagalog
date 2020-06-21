@@ -51,7 +51,7 @@ class ListSongs extends Component {
         </div>
       <div className="list-songs">
         <div className="list-songs-title">
-          <h1>Ramesh's Raaga Catalog</h1>
+          <h1>Raaga Catalog</h1>
         </div>
         <div className="list-songs-content">
           <div>
