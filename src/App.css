@@ -145,6 +145,14 @@ button:active {
   font-size: inherit;
 }
 
+.show-counts {
+  position: fixed;
+  right: 25px;
+  color: blue;
+  bottom: 10px;
+  font-size: 0.4em;
+}
+
 /* songs grid */
 
 .songs-grid {
@@ -167,7 +175,7 @@ button:active {
 
 .song-title,
 .song-authors {
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .song-title {

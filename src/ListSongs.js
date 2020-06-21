@@ -72,7 +72,18 @@ class ListSongs extends Component {
     const showingAlbum = query.trim() === ''
     ? album
     : this.getMatchingAlbum(query.trim());
-    const placeholder = `Search by ${search_mode}`
+    const num_raagas = showingAlbum.length;
+    let songSet = new Set();
+    let compSet = new Set();
+
+    showingAlbum.map( s => (
+      s.songs.map(sng => {
+        songSet.add(sng.title);
+        return sng.composers.map(c => compSet.add(c));
+      })
+    ));
+
+    const placeholder = `Search by ${search_mode}`;
 
     //return JSX
     return (
@@ -116,6 +127,8 @@ class ListSongs extends Component {
               ))}
           </div>
         </div>
+        <div className="show-counts">{num_raagas} raagas; {songSet.size} songs; {compSet.size} composers </div>
+
       </div>
       </div>
     );
