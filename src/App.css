@@ -83,6 +83,19 @@ body, .app {
   z-index: 5;
   display: flex;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 0 6px rgba(0,0,0,0.23);
+  background: white;
+}
+
+.search-changer {
+   height: calc(1.5em + .75rem + 2px);
+   padding: .375rem 1.75rem .375rem .75rem;
+   font-size: 1.5rem;
+   font-weight: 400;
+   line-height: 1.5;
+   vertical-align: middle;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
 }
 
 .search-songs-input-wrapper {
@@ -123,11 +136,10 @@ button:active {
 }
 .showing-album {
   text-align: center;
-  margin: 20px 0;
+  margin: 18px 0;
 }
 .showing-album button {
   color: blue;
-  background: transparent;
   border: none;
   cursor: pointer;
   font-size: inherit;

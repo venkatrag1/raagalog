@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
 import RaagaShelf from "./RaagaShelf";
 
 /**
@@ -9,7 +8,8 @@ import RaagaShelf from "./RaagaShelf";
  */
 class ListSongs extends Component {
   state = {
-    query: ''
+    query: '',
+    search_mode: "raaga"
   }
 
   updateQuery = (query) => {
@@ -17,26 +17,78 @@ class ListSongs extends Component {
       query: query
     }))
   }
+
   clearQuery = () => {
     this.updateQuery('')
   }
 
+  handleSearchModeChange = event => {
+    const { value } = event.target;
+    this.setState({search_mode: value});
+  }
+
+  getMatchingAlbum = (query) => {
+    const { album } = this.props;
+    const { search_mode } = this.state;
+    let temp_album = [];
+    if (search_mode === "raaga") {
+      return album.filter((s) => (
+        s.raagam.toLowerCase().includes(query.toLowerCase())
+      ));
+    } else if (search_mode === "song") {
+      for (let shelf of album) {
+        const filtered_songs = shelf.songs.filter( (song) =>
+        song.title.toLowerCase().includes(query.toLowerCase()));
+        if (filtered_songs.length > 0) {
+          temp_album.push({
+            raagam: shelf.raagam,
+            collapsed: shelf.collapsed,
+            songs: filtered_songs
+          });
+        }
+      }
+    } else if (search_mode === "composer") {
+      for (let shelf of album) {
+        const filtered_songs = shelf.songs.filter( (song) => (
+          song.composers.filter(composer => (
+            composer.toLowerCase().includes(query.toLowerCase())
+          )).length > 0
+        ));
+        if (filtered_songs.length > 0) {
+          temp_album.push({
+            raagam: shelf.raagam,
+            collapsed: shelf.collapsed,
+            songs: filtered_songs
+          });
+        }
+      }
+    }
+    return temp_album;
+  }
+
   render() {
-    const { query } = this.state;
+    const { query, search_mode } = this.state;
     const { album } = this.props;
     const showingAlbum = query.trim() === ''
     ? album
-    : album.filter((s) => (
-      s.raagam.toLowerCase().includes(query.toLowerCase())
-    ))
+    : this.getMatchingAlbum(query.trim());
+    const placeholder = `Search by ${search_mode}`
 
     //return JSX
     return (
       <div>
         <div className="search-songs">
           <div className="search-songs-bar">
+              <div className="search-changer" >
+                <select value={search_mode} onChange={this.handleSearchModeChange}>
+                <option value="search" disabled>Search By...</option>
+                <option key="raaga" value="raaga">Raaga</option>
+                <option key="song" value="song">Song</option>
+                <option key="composer" value="composer">Composer</option>
+                </select>
+              </div>
               <div className="search-songs-input-wrapper">
-              <input type="text" placeholder="Search by Raaga name" value={query} onChange={event => this.updateQuery(event.target.value)}/>
+              <input type="text" placeholder={placeholder} value={query} onChange={event => this.updateQuery(event.target.value)}/>
               </div>
               {showingAlbum.length !== album.length && (
                 <div className='showing-album'>
@@ -63,10 +115,6 @@ class ListSongs extends Component {
                 />
               ))}
           </div>
-        </div>
-        <div className="open-search">
-          <Link
-          to="/search">Add a song</Link>
         </div>
       </div>
       </div>
