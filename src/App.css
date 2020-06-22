@@ -178,6 +178,10 @@ button:active {
   font-size: 1em;
 }
 
+.song a {
+color: inherit;
+}
+
 .song-title {
   margin-top: 10px;
 }
