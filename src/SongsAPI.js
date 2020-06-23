@@ -77,7 +77,7 @@ const songlist = `[
       "Arabhi"
     ],
     "composers": [
-      "Dikshithar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -86,7 +86,7 @@ const songlist = `[
       "Arabhi"
     ],
     "composers": [
-      "Dikshithar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -95,7 +95,7 @@ const songlist = `[
       "Arabhi"
     ],
     "composers": [
-      "Dikshithar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -183,7 +183,7 @@ const songlist = `[
       "Amrithavarshini"
     ],
     "composers": [
-      "Dikshitar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -226,7 +226,7 @@ const songlist = `[
       "Amrithavarshini"
     ],
     "composers": [
-      "Mayuram Viswanatha Sastri"
+      "Mayuram Vishvanatha shastri"
     ]
   },
   {
@@ -370,7 +370,7 @@ const songlist = `[
       "Valaji"
     ],
     "composers": [
-      "Lalgudi Jeyaraman"
+      "Lalgudi Jayaraman"
     ]
   },
   {
@@ -388,7 +388,16 @@ const songlist = `[
       "Manirangu"
     ],
     "composers": [
-      "Dikshitar Jaya Jaya Padmanabha"
+      "Muthuswami Dikshithar"
+    ]
+  },
+  {
+    "title": "Jaya Jaya Padmanabha",
+    "raagas": [
+      "Manirangu"
+    ],
+    "composers": [
+      "Swati Tirunal"
     ]
   },
   {
@@ -442,12 +451,12 @@ const songlist = `[
     ]
   },
   {
-    "title": "Thoodhu Nee Solli",
+    "title": "Thoodhu Nee Solli (Kutrala Kuravanji)",
     "raagas": [
       "Manirangu"
     ],
     "composers": [
-      "Thirikooda Rasappa kavirayar in   Kutrala Kuravanji"
+      "Thirikooda Rasappa kavirayar"
     ]
   },
   {
@@ -456,7 +465,7 @@ const songlist = `[
       "Surutti"
     ],
     "composers": [
-      "Dikshithar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -476,12 +485,12 @@ const songlist = `[
     "composers": []
   },
   {
-    "title": "Angarakam Ashrayam",
+    "title": "Angarakam Ashrayam ( in Navagraha krithis)",
     "raagas": [
       "Surutti"
     ],
     "composers": [
-      "Dikshitar in Navagraha krithis"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -606,8 +615,24 @@ const songlist = `[
       "Poorvikalyani"
     ],
     "composers": [
-      "Dikshithar Ninnuvina Gamari"
+      "Muthuswami Dikshithar"
     ]
+  },
+  {
+    "title": "Ninnuvina Gamari",
+    "raagas": [
+      "Poorvikalyani"
+    ],
+    "composers": [
+      "Shyama Sastri"
+    ]
+  },
+  {
+    "title": "Ksheera Sagara",
+    "raagas": [
+      "Poorvikalyani"
+    ],
+    "composers": []
   },
   {
     "title": "Paradeivam",
@@ -649,18 +674,13 @@ const songlist = `[
     "composers": []
   },
   {
-    "title": "Srimatha Shiva vamange by",
+    "title": "Srimatha Shiva vamange",
     "raagas": [
       "Poorvikalyani"
     ],
-    "composers": []
-  },
-  {
-    "title": "Dikshithar",
-    "raagas": [
-      "Poorvikalyani"
-    ],
-    "composers": []
+    "composers": [
+      "Muthuswami Dikshithar"
+    ]
   },
   {
     "title": "Intha Chalamu- varnam Veenai Dhanammal",
@@ -711,7 +731,7 @@ const songlist = `[
       "Poorvikalyani"
     ],
     "composers": [
-      "Syama sastri"
+      "Syama Shastri"
     ]
   },
   {
@@ -790,7 +810,7 @@ const songlist = `[
       "Bahudari"
     ],
     "composers": [
-      "Dr M. Balamuralikrishna"
+      "Dr. M. Balamuralikrishna"
     ]
   },
   {
@@ -948,7 +968,7 @@ const songlist = `[
       "Pantuvarali"
     ],
     "composers": [
-      "Dikshitar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -991,7 +1011,7 @@ const songlist = `[
       "Shubhapantuvarali"
     ],
     "composers": [
-      "Muthuswami Dikshitar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -1081,7 +1101,7 @@ const songlist = `[
       "Jonpuri"
     ],
     "composers": [
-      "Bhaaratiyaar"
+      "Bharathiyar"
     ]
   },
   {
@@ -1150,7 +1170,7 @@ const songlist = `[
       "Sriranjani"
     ],
     "composers": [
-      "Muthuswami Dikshitar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -1347,7 +1367,7 @@ const songlist = `[
       "Kambhoji"
     ],
     "composers": [
-      "Muthuswami Dikshitar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -1492,7 +1512,7 @@ const songlist = `[
       "Thodi"
     ],
     "composers": [
-      "Muthuswami Dikshitar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -1508,7 +1528,7 @@ const songlist = `[
       "Thodi"
     ],
     "composers": [
-      "Syama Sastri"
+      "Syama Shastri"
     ]
   },
   {
@@ -1666,15 +1686,17 @@ const songlist = `[
       "Kedaram"
     ],
     "composers": [
-      "Muthuswami Dikshitar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
-    "title": "Hare Paripahimam Mysore Vasudevachar",
+    "title": "Hare Paripahimam",
     "raagas": [
       "Kedaram"
     ],
-    "composers": []
+    "composers": [
+      "Mysore Vasudevachariar"
+    ]
   },
   {
     "title": "Harinarayana",
@@ -1863,7 +1885,7 @@ const songlist = `[
       "Hindolam"
     ],
     "composers": [
-      "Muthuswami Dikshitar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -1895,7 +1917,7 @@ const songlist = `[
       "Hindolam"
     ],
     "composers": [
-      "Mysore Vasudevacharya"
+      "Mysore Vasudevachariar"
     ]
   },
   {
@@ -2000,7 +2022,7 @@ const songlist = `[
     "composers": []
   },
   {
-    "title": "Gopika manoharamby Muthuswamy Dikshitar",
+    "title": "Gopika manoharamby Muthuswamy Muthuswami Dikshithar",
     "raagas": [
       "Mohanam"
     ],
@@ -2035,7 +2057,7 @@ const songlist = `[
       "Mohanam"
     ],
     "composers": [
-      "Mysore Vasudevachar"
+      "Mysore Vasudevachariar"
     ]
   },
   {
@@ -2087,7 +2109,7 @@ const songlist = `[
       "Vasantha"
     ],
     "composers": [
-      "Muthuswami Dikshitar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -2114,7 +2136,7 @@ const songlist = `[
       "Vasantha"
     ],
     "composers": [
-      "Gopalakrishna Bharathi'"
+      "Gopalakrishna Bharathi"
     ]
   },
   {
@@ -2178,7 +2200,7 @@ const songlist = `[
       "Jayanthasri"
     ],
     "composers": [
-      "Mysore Vasudevacharya"
+      "Mysore Vasudevachariar"
     ]
   },
   {
@@ -2292,7 +2314,7 @@ const songlist = `[
       "Bowli"
     ],
     "composers": [
-      "Muthuswami Dikshitar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -2347,7 +2369,7 @@ const songlist = `[
       "Varali"
     ],
     "composers": [
-      "Muthuswami Dikshitar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -2443,7 +2465,7 @@ const songlist = `[
       "Neelambari"
     ],
     "composers": [
-      "Dikshitar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -2456,18 +2478,22 @@ const songlist = `[
     ]
   },
   {
-    "title": "Narayana Theertha\u2019s \u2018Madhava Mamava\u2019",
+    "title": "Madhava Maamava",
     "raagas": [
       "Neelambari"
     ],
-    "composers": []
+    "composers": [
+      "Narayana Theertha"
+    ]
   },
   {
-    "title": "Oothukadu Venkatakavi\u2019s \u2018Maninupura Dhari\u2019",
+    "title": "Maninpuri Dhari",
     "raagas": [
       "Neelambari"
     ],
-    "composers": []
+    "composers": [
+      "Oothukadu Venkatakavi"
+    ]
   },
   {
     "title": "Tholiyu",
@@ -2586,7 +2612,7 @@ const songlist = `[
       "Kapi"
     ],
     "composers": [
-      "Mysore Vasudevacharya"
+      "Mysore Vasudevachariar"
     ]
   },
   {
@@ -2613,7 +2639,7 @@ const songlist = `[
       "Kapi"
     ],
     "composers": [
-      "Subramanya Bharathi"
+      "Bharathiyar"
     ]
   },
   {
@@ -2622,7 +2648,7 @@ const songlist = `[
       "Kapi"
     ],
     "composers": [
-      "Mayuram Viswanatha Sastri"
+      "Mayuram Vishvanatha shastri"
     ]
   },
   {
@@ -2663,7 +2689,7 @@ const songlist = `[
       "Khamas"
     ],
     "composers": [
-      "Dikshithar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -2688,7 +2714,7 @@ const songlist = `[
       "Khamas"
     ],
     "composers": [
-      "Subbarama Dikshitar"
+      "Subbarama Muthuswami Dikshithar"
     ]
   },
   {
@@ -2704,7 +2730,7 @@ const songlist = `[
       "Khamas"
     ],
     "composers": [
-      "Mysore Vasudevachar"
+      "Mysore Vasudevachariar"
     ]
   },
   {
@@ -2783,7 +2809,7 @@ const songlist = `[
       "Yamunakalyani"
     ],
     "composers": [
-      "Dikshithar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -2801,7 +2827,7 @@ const songlist = `[
       "Yamunakalyani"
     ],
     "composers": [
-      "Annamayya"
+      "Annamacharya"
     ]
   },
   {
@@ -2819,7 +2845,7 @@ const songlist = `[
       "Yamunakalyani"
     ],
     "composers": [
-      "Bhadrachala Ramadasu"
+      "Bhadrachala Ramadasar"
     ]
   },
   {
@@ -2871,7 +2897,7 @@ const songlist = `[
       "Yamunakalyani"
     ],
     "composers": [
-      "Dikshithar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -2905,7 +2931,7 @@ const songlist = `[
       "Kambhoji"
     ],
     "composers": [
-      "Muthuswami Dikshitar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -3092,7 +3118,7 @@ const songlist = `[
       "Brindavanasaranga"
     ],
     "composers": [
-      "Dikshithar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -3162,7 +3188,7 @@ const songlist = `[
       "Dwijavanthi"
     ],
     "composers": [
-      "Dikshithar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -3187,7 +3213,7 @@ const songlist = `[
       "Hameerkalyani"
     ],
     "composers": [
-      "Dikshithar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -3196,7 +3222,16 @@ const songlist = `[
       "Hameerkalyani"
     ],
     "composers": [
-      "Thyagaraja Venkatasaila Vihara"
+      "Thyagaraja"
+    ]
+  },
+  {
+    "title": "Venkatasaila Vihara",
+    "raagas": [
+      "Hameerkalyani"
+    ],
+    "composers": [
+      "Subbaraya Sastri"
     ]
   },
   {
@@ -3239,7 +3274,7 @@ const songlist = `[
       "Gowrimanohari"
     ],
     "composers": [
-      "Mysore Vasudevacharya"
+      "Mysore Vasudevachariar"
     ]
   },
   {
@@ -3273,7 +3308,7 @@ const songlist = `[
       "Abheri"
     ],
     "composers": [
-      "Mysore Vasudevacharya"
+      "Mysore Vasudevachariar"
     ]
   },
   {
@@ -3282,7 +3317,7 @@ const songlist = `[
       "Abheri"
     ],
     "composers": [
-      "Dikshitar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -3309,7 +3344,7 @@ const songlist = `[
       "Abhogi"
     ],
     "composers": [
-      "Dikshitar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -3318,7 +3353,7 @@ const songlist = `[
       "Abhogi"
     ],
     "composers": [
-      "Gopalakrishna Bharati"
+      "Gopalakrishna Bharathi"
     ]
   },
   {
@@ -3345,7 +3380,7 @@ const songlist = `[
       "Abhogi"
     ],
     "composers": [
-      "Annamayya"
+      "Annamacharya"
     ]
   },
   {
@@ -3372,7 +3407,7 @@ const songlist = `[
       "Sama"
     ],
     "composers": [
-      "Dikshithar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -3440,7 +3475,7 @@ const songlist = `[
       "Hindolam"
     ],
     "composers": [
-      "Mysore Vasudevachar"
+      "Mysore Vasudevachariar"
     ]
   },
   {
@@ -3458,7 +3493,7 @@ const songlist = `[
       "Hindolam"
     ],
     "composers": [
-      "Dikshitar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -3560,7 +3595,7 @@ const songlist = `[
       "Charukesi"
     ],
     "composers": [
-      "Dikshithar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -3605,7 +3640,7 @@ const songlist = `[
       "Sudha Dhanyasi"
     ],
     "composers": [
-      "Dikshithar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -3623,7 +3658,7 @@ const songlist = `[
       "Sudha Dhanyasi"
     ],
     "composers": [
-      "Annamayya"
+      "Annamacharya"
     ]
   },
   {
@@ -3684,7 +3719,7 @@ const songlist = `[
       "Bhairavi"
     ],
     "composers": [
-      "Dikshithar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -3693,7 +3728,7 @@ const songlist = `[
       "Bhairavi"
     ],
     "composers": [
-      "Dikshithar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -3702,7 +3737,7 @@ const songlist = `[
       "Bhairavi"
     ],
     "composers": [
-      "Dikshithar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -3765,7 +3800,16 @@ const songlist = `[
       "Bhairavi"
     ],
     "composers": [
-      "Purandara Dasar Indu enage govinda"
+      "Purandara Dasar"
+    ]
+  },
+  {
+    "title": "Indu enage govinda",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": [
+      "Raghavendra Swami"
     ]
   },
   {
@@ -3847,7 +3891,7 @@ const songlist = `[
       "Bhairavi"
     ],
     "composers": [
-      "Muthuswami Dikshitar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -3888,7 +3932,7 @@ const songlist = `[
       "Bhairavi"
     ],
     "composers": [
-      "Mysore Vasudevacharya"
+      "Mysore Vasudevachariar"
     ]
   },
   {
@@ -3897,7 +3941,7 @@ const songlist = `[
       "Bhairavi"
     ],
     "composers": [
-      "Narayana Teertha"
+      "Narayana Theertha"
     ]
   },
   {
@@ -4112,7 +4156,7 @@ const songlist = `[
       "Madhyamavathi"
     ],
     "composers": [
-      "Dikshithar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
@@ -4271,7 +4315,7 @@ const songlist = `[
       "Madhyamavathi"
     ],
     "composers": [
-      "Dikshitar"
+      "Muthuswami Dikshithar"
     ]
   },
   {
