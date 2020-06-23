@@ -1,2164 +1,177 @@
 const songlist = `[
   {
-    "title": "Nidhi chala sukhama",
+    "title": "Sarasija Mukhi",
     "raagas": [
-      "Kalyani"
+      "Arabhi"
     ],
-    "composers": []
-  },
-  {
-    "title": "Vasudevayani",
-    "raagas": [
-      "Kalyani"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Evari Mata",
-    "raagas": [
-      "Kambhoji"
-    ],
-    "composers": []
-  },
-  {
-    "title": "O Ranga Sayee",
-    "raagas": [
-      "Kambhoji"
-    ],
-    "composers": [
-      "Tyagaraja"
-    ]
-  },
-  {
-    "title": "Shri Subrahmanyaya Namaste",
-    "raagas": [
-      "Kambhoji"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Marakathavallim",
-    "raagas": [
-      "Kambhoji"
-    ],
-    "composers": [
-      "Muthuswami Dikshitar"
-    ]
-  },
-  {
-    "title": "Sarasijanabha (Varnam)",
-    "raagas": [
-      "Kambhoji"
-    ],
-    "composers": [
-      "Swathi Thirunale"
-    ]
-  },
-  {
-    "title": "Dasarathi nee runamu",
-    "raagas": [
-      "Thodi"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Aragimpave",
-    "raagas": [
-      "Thodi"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Chesinadella",
-    "raagas": [
-      "Thodi"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Koluvamaregada kodandapani",
-    "raagas": [
-      "Thodi"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Emi jesithe nemi",
-    "raagas": [
-      "Thodi"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Sarasijanabha Murare",
-    "raagas": [
-      "Thodi"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Shri Krishnam",
-    "raagas": [
-      "Thodi"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Daakshayani",
-    "raagas": [
-      "Thodi"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Kamalambike",
-    "raagas": [
-      "Thodi"
-    ],
-    "composers": [
-      "Muthuswami Dikshitar"
-    ]
-  },
-  {
-    "title": "Thamatham en swami",
-    "raagas": [
-      "Thodi"
-    ],
-    "composers": [
-      "Papanasam Sivan"
-    ]
-  },
-  {
-    "title": "Thaye Yashoda",
-    "raagas": [
-      "Thodi"
-    ],
-    "composers": [
-      "Oothukadu Venkata Subbier"
-    ]
-  },
-  {
-    "title": "Ananda Natesa",
-    "raagas": [
-      "Thodi"
-    ],
-    "composers": [
-      "Ramaswamy Sivan"
-    ]
-  },
-  {
-    "title": "Swararagha Sudha rasa",
-    "raagas": [
-      "Sankarabaranam"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Saroja dala netri",
-    "raagas": [
-      "Sankarabaranam"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Shyamale Meenakshi",
-    "raagas": [
-      "Sankarabaranam"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Venkatachala Nilayam",
-    "raagas": [
-      "Sindubhairavi"
-    ],
-    "composers": [
-      "Purandara dasa"
-    ]
-  },
-  {
-    "title": "Kedaram",
-    "raagas": [
-      "Sindubhairavi"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Ananda natana prakasham",
-    "raagas": [
-      "Sindubhairavi"
-    ],
-    "composers": [
-      "Muthuswami Dikshitar"
-    ]
-  },
-  {
-    "title": "Chakkani raja margamu",
-    "raagas": [
-      "Karaharapriya"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Senthil andavan",
-    "raagas": [
-      "Karaharapriya"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Janaki pathe",
-    "raagas": [
-      "Karaharapriya"
-    ],
-    "composers": [
-      "Papanasam Sivan"
-    ]
-  },
-  {
-    "title": "Okkapari kokkapari",
-    "raagas": [
-      "Karaharapriya"
-    ],
-    "composers": [
-      "Annamacharya"
-    ]
-  },
-  {
-    "title": "Paluke bangaramayana",
-    "raagas": [
-      "Anandabhairavi"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Marivere gati",
-    "raagas": [
-      "Anandabhairavi"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Singara velavan vandan",
-    "raagas": [
-      "Anandabhairavi"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Samagana priye",
-    "raagas": [
-      "Anandabhairavi"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Rama nama payasake Krishna nama",
-    "raagas": [
-      "Anandabhairavi"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Karpagavalli nin porpadangal pidithen",
-    "raagas": [
-      "Anandabhairavi"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Vaddane vaaru",
-    "raagas": [
-      "Shanmukhapriya"
-    ],
-    "composers": [
-      "Tyagaraja"
-    ]
-  },
-  {
-    "title": "Marivere Dikkevarayya",
-    "raagas": [
-      "Shanmukhapriya"
-    ],
-    "composers": [
-      "Patnam Subramania Iyer"
-    ]
-  },
-  {
-    "title": "Saravana bhava enum thirumandiram",
-    "raagas": [
-      "Shanmukhapriya"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Valli Nayakane",
-    "raagas": [
-      "Shanmukhapriya"
-    ],
-    "composers": [
-      "Muthiah Bhagavatar"
-    ]
-  },
-  {
-    "title": "Siddhi Vinayakam",
-    "raagas": [
-      "Shanmukhapriya"
-    ],
-    "composers": [
-      "Muthuswami Dikshithar"
-    ]
-  },
-  {
-    "title": "Samaja vara gamana",
-    "raagas": [
-      "Hindolam"
-    ],
-    "composers": [
-      "Tyagaraja"
-    ]
-  },
-  {
-    "title": "Maa Ramanan",
-    "raagas": [
-      "Hindolam"
-    ],
-    "composers": []
-  },
-  {
-    "title": "and Nambikettavar",
-    "raagas": [
-      "Hindolam"
-    ],
-    "composers": [
-      "Papanasam Sivan"
-    ]
-  },
-  {
-    "title": "Mamavatu Sri Saraswati",
-    "raagas": [
-      "Hindolam"
-    ],
-    "composers": [
-      "Mysore Vasudevacharya"
-    ]
-  },
-  {
-    "title": "Chintayami Jagadamba",
-    "raagas": [
-      "Hindolam"
-    ],
-    "composers": [
-      "Jayachamarajendra Wodeyar"
-    ]
-  },
-  {
-    "title": "Ramanakku Mannan Mudi",
-    "raagas": [
-      "Hindolam"
-    ],
-    "composers": [
-      "Arunachala Kavi"
-    ]
-  },
-  {
-    "title": "Vathabi ganapathim baje",
-    "raagas": [
-      "Hamsadwani"
-    ],
-    "composers": []
-  },
-  {
-    "title": "The geetham Varavina mridupani",
-    "raagas": [
-      "Mohanam"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Nannu palimpa",
-    "raagas": [
-      "Mohanam"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Darayani",
-    "raagas": [
-      "Mohanam"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Rama ninnu nammina",
-    "raagas": [
-      "Mohanam"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Evarura ninnuvina",
-    "raagas": [
-      "Mohanam"
-    ],
-    "composers": []
-  },
-  {
-    "title": "and Bhavanutha",
-    "raagas": [
-      "Mohanam"
-    ],
-    "composers": [
-      "Thyagaraja"
-    ]
-  },
-  {
-    "title": "Narasimha Agaccha",
-    "raagas": [
-      "Mohanam"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Kadambari priyayaih",
-    "raagas": [
-      "Mohanam"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Gopika manoharam",
-    "raagas": [
-      "Mohanam"
-    ],
-    "composers": [
-      "Muthuswamy Dikshitar"
-    ]
-  },
-  {
-    "title": "Kapaali",
-    "raagas": [
-      "Mohanam"
-    ],
-    "composers": []
-  },
-  {
-    "title": "karunai",
-    "raagas": [
-      "Mohanam"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Rara Rajiva lochana",
-    "raagas": [
-      "Mohanam"
-    ],
-    "composers": [
-      "Mysore Vasudevachar"
-    ]
-  },
-  {
-    "title": "En palli kondeer aiyya",
-    "raagas": [
-      "Mohanam"
-    ],
-    "composers": [
-      "Arunachala Kavi"
-    ]
-  },
-  {
-    "title": "Swagatam Krishna",
-    "raagas": [
-      "Mohanam"
-    ],
-    "composers": [
-      "Oottukkadu Venkata Kavi"
-    ]
-  },
-  {
-    "title": "Ninne kori varnam",
-    "raagas": [
-      "Vasantha"
-    ],
-    "composers": [
-      "Tecchur Singarachari"
-    ]
-  },
-  {
-    "title": "Sitamma Mayamma",
-    "raagas": [
-      "Vasantha"
-    ],
-    "composers": [
-      "Tyagaraja"
-    ]
-  },
-  {
-    "title": "Natanam Adinar",
-    "raagas": [
-      "Vasantha"
-    ],
-    "composers": [
-      "Gopalakrishna Bharathi"
-    ]
-  },
-  {
-    "title": "Maha ganapathim",
-    "raagas": [
-      "Nattai"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Jagadananda karaka",
-    "raagas": [
-      "Nattai"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Swaminathan paripalaya",
-    "raagas": [
-      "Nattai"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Mokshamugalada",
-    "raagas": [
-      "Saramathi"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Marukelara o Raghava",
-    "raagas": [
-      "Jayanthasri"
-    ],
-    "composers": [
-      "Thyagaraja"
-    ]
-  },
-  {
-    "title": "Alai payude kanna",
-    "raagas": [
-      "Kanada"
-    ],
-    "composers": [
-      "Oothukadu Venkatakavi"
-    ]
-  },
-  {
-    "title": "Mamava sada Janani",
-    "raagas": [
-      "Kanada"
-    ],
-    "composers": [
-      "Swathi Thirunal"
-    ]
-  },
-  {
-    "title": "Muddugare yasodha",
-    "raagas": [
-      "Kurinji"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Yochana kamala lochana",
-    "raagas": [
-      "Darbar"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Radha sametha Krishna",
-    "raagas": [
-      "Misra yaman"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Bho Sambho",
-    "raagas": [
-      "Revathi"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Brahmam okate",
-    "raagas": [
-      "Bowli"
-    ],
-    "composers": [
-      "Annamacharya"
-    ]
-  },
-  {
-    "title": "Sriman Narayana",
-    "raagas": [
-      "Bowli"
-    ],
-    "composers": [
-      "Annamacharya"
-    ]
-  },
-  {
-    "title": "Melukovayya",
-    "raagas": [
-      "Bowli"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Sambho Mahadeva",
-    "raagas": [
-      "Bowli"
-    ],
-    "composers": [
-      "Tyagaraja"
-    ]
-  },
-  {
-    "title": "Theeratha vilayattu pillai",
-    "raagas": [
-      "Ragamalika"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Maitreem Bhajatha",
-    "raagas": [
-      "Ragamalika"
-    ],
-    "composers": [
-      "Sri Paramacharyar"
-    ]
-  },
-  {
-    "title": "Kana kana ruchira",
-    "raagas": [
-      "Varali"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Eti janmamiti Tyagaraja",
-    "raagas": [
-      "Varali"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Mamava Meenakshi",
-    "raagas": [
-      "Varali"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Seshachala nayakam",
-    "raagas": [
-      "Varali"
-    ],
-    "composers": [
-      "Muthuswami Dikshitar"
-    ]
-  },
-  {
-    "title": "Mamava Padmanabha",
-    "raagas": [
-      "Varali"
-    ],
-    "composers": [
-      "Swathi Thirunal"
-    ]
-  },
-  {
-    "title": "Ka Vaa Vaa",
-    "raagas": [
-      "Varali"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Ennaga Manasu",
-    "raagas": [
-      "Neelambari"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Uyyala Lugavayya",
-    "raagas": [
-      "Neelambari"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Laliyugave",
-    "raagas": [
-      "Neelambari"
-    ],
-    "composers": [
-      "Thyagaraja"
-    ]
-  },
-  {
-    "title": "Amba Neelayadakshi",
-    "raagas": [
-      "Neelambari"
-    ],
-    "composers": [
-      "Dikshithar"
-    ]
-  },
-  {
-    "title": "Brovavamma",
-    "raagas": [
-      "Neelambari"
-    ],
-    "composers": [
-      "Shyama Sastri"
-    ]
-  },
-  {
-    "title": "Thookithale",
-    "raagas": [
-      "Neelambari"
-    ],
-    "composers": [
-      "Purandaradasa"
-    ]
-  },
-  {
-    "title": "Tholiyu",
-    "raagas": [
-      "Neelambari"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Kanthanodu chennu",
-    "raagas": [
-      "Neelambari"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Anandavalli",
-    "raagas": [
-      "Neelambari"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Sarasa",
-    "raagas": [
-      "Neelambari"
-    ],
-    "composers": [
-      "Swathi thirunal"
-    ]
-  },
-  {
-    "title": "Shringara lahari",
-    "raagas": [
-      "Neelambari"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Sri Valli deva senapathe",
-    "raagas": [
-      "Natabairavi"
-    ],
-    "composers": [
-      "Papanasam Sivan"
-    ]
-  },
-  {
-    "title": "Raghuvara Naanu",
-    "raagas": [
-      "Pantuvarali"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Ninne Nera nammi",
-    "raagas": [
-      "Pantuvarali"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Shambho Mahadeva",
-    "raagas": [
-      "Pantuvarali"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Siva Siva Sive Ena Radha",
-    "raagas": [
-      "Pantuvarali"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Appa rama bhakti",
-    "raagas": [
-      "Pantuvarali"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Naradamuni",
-    "raagas": [
-      "Pantuvarali"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Shobane (Utsava Sampradaya)",
-    "raagas": [
-      "Pantuvarali"
-    ],
-    "composers": [
-      "Thyagaraja"
-    ]
-  },
-  {
-    "title": "Ennalu urake",
-    "raagas": [
-      "Shubhapantuvarali"
-    ],
-    "composers": [
-      "Thyagaraja"
-    ]
-  },
-  {
-    "title": "Sri Satyanarayanam",
-    "raagas": [
-      "Shubhapantuvarali"
-    ],
-    "composers": [
-      "Dikshithar"
-    ]
-  },
-  {
-    "title": "Paripahimam Shri Dasarathe",
-    "raagas": [
-      "Shubhapantuvarali"
-    ],
-    "composers": [
-      "Mysore Vasudevachariar"
-    ]
-  },
-  {
-    "title": "Eppo Varuvaro",
-    "raagas": [
-      "Jonpuri"
-    ],
-    "composers": [
-      "Gopalakrishna Bharathi"
-    ]
-  },
-  {
-    "title": "Sapasyat kausalya",
-    "raagas": [
-      "Jonpuri"
-    ],
-    "composers": [
-      "Panchapakesa Sastri"
-    ]
-  },
-  {
-    "title": "Rama mantrava",
-    "raagas": [
-      "Jonpuri"
-    ],
-    "composers": [
-      "Purandaradasa"
-    ]
-  },
-  {
-    "title": "Asai Mugham Marandhu Poche",
-    "raagas": [
-      "Jonpuri"
-    ],
-    "composers": [
-      "Bhaaratiyaar"
-    ]
-  },
-  {
-    "title": "Chidanandadam Srinivasam",
-    "raagas": [
-      "Jonpuri"
-    ],
-    "composers": [
-      "Kalyani Varadarajan"
-    ]
-  },
-  {
-    "title": "Marubalka",
-    "raagas": [
-      "Sriranjani"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Brochevarevare",
-    "raagas": [
-      "Sriranjani"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Bhuvini daasudane",
-    "raagas": [
-      "Sriranjani"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Sogasuga mrudanga talamu",
-    "raagas": [
-      "Sriranjani"
-    ],
-    "composers": [
-      "Thyagaraja"
-    ]
-  },
-  {
-    "title": "Ini oru kanam unnai",
-    "raagas": [
-      "Sriranjani"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Kaana Vendamo",
-    "raagas": [
-      "Sriranjani"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Gajavadana karuna",
-    "raagas": [
-      "Sriranjani"
-    ],
-    "composers": [
-      "Papanasam Sivan"
-    ]
-  },
-  {
-    "title": "Ramanannu brovara",
-    "raagas": [
-      "Harikambhoji"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Dinamani vamsha",
-    "raagas": [
-      "Harikambhoji"
-    ],
-    "composers": [
-      "Thyagaraja"
-    ]
-  },
-  {
-    "title": "Saketha Niagara natha",
-    "raagas": [
-      "Harikambhoji"
-    ],
-    "composers": [
-      "Mysore Sadasiva rao"
-    ]
-  },
-  {
-    "title": "Rangapura vihara",
-    "raagas": [
-      "Brindavanasaranga"
-    ],
-    "composers": [
-      "Dikshithar"
-    ]
-  },
-  {
-    "title": "Brahma Kadigina Padamu",
-    "raagas": [
-      "Mukhari"
-    ],
-    "composers": [
-      "Annamacharya"
-    ]
-  },
-  {
-    "title": "Entaninne",
-    "raagas": [
-      "Mukhari"
-    ],
-    "composers": [
-      "Tyagaraja"
-    ]
-  },
-  {
-    "title": "Ksheenamai",
-    "raagas": [
-      "Mukhari"
-    ],
-    "composers": [
-      "Tyagaraja"
-    ]
-  },
-  {
-    "title": "Elavatara",
-    "raagas": [
-      "Mukhari"
-    ],
-    "composers": [
-      "Tyagaraja"
-    ]
-  },
-  {
-    "title": "Endraikku Siva Krupai",
-    "raagas": [
-      "Mukhari"
-    ],
-    "composers": [
-      "Neelakanta Sivan"
-    ]
-  },
-  {
-    "title": "Ethanai koti inbam vaithai",
-    "raagas": [
-      "Desh"
-    ],
-    "composers": [
-      "Bharathiyar"
-    ]
-  },
-  {
-    "title": "Thunbam neigayil yazheduthu",
-    "raagas": [
-      "Desh"
-    ],
-    "composers": [
-      "Bharathidasan"
-    ]
-  },
-  {
-    "title": "Akhilaandeshwari Rakshamaam",
-    "raagas": [
-      "Dwijavanthi"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Chethashri Baalakrishnam",
-    "raagas": [
-      "Dwijavanthi"
-    ],
-    "composers": [
-      "Dikshithar"
-    ]
-  },
-  {
-    "title": "Tharuni jnan",
-    "raagas": [
-      "Dwijavanthi"
-    ],
-    "composers": [
-      "Swathi thirunal"
-    ]
-  },
-  {
-    "title": "Thoomani Madathu in Thiruppavai",
-    "raagas": [
-      "Hameerkalyani"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Nadamurali",
-    "raagas": [
-      "Hameerkalyani"
-    ],
-    "composers": [
-      "Oothukadu Venkatasubbier"
-    ]
-  },
-  {
-    "title": "Gangeya Vasana",
-    "raagas": [
-      "Hameerkalyani"
-    ],
-    "composers": [
-      "Swati Tirunal"
-    ]
-  },
-  {
-    "title": "Guruleka etuvanti",
-    "raagas": [
-      "Gowrimanohari"
-    ],
-    "composers": [
-      "Thyagaraja"
-    ]
-  },
-  {
-    "title": "Varalakshmi Namostute",
-    "raagas": [
-      "Gowrimanohari"
-    ],
-    "composers": [
-      "Mysore Vasudevacharya"
-    ]
-  },
-  {
-    "title": "Brova Samayamide Ramayya",
-    "raagas": [
-      "Gowrimanohari"
-    ],
-    "composers": [
-      "Karur Devudu Iyer"
-    ]
-  },
-  {
-    "title": "Bhajare re manasa",
-    "raagas": [
-      "Abheri"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Nannu brova",
-    "raagas": [
-      "Abhogi"
-    ],
-    "composers": [
-      "Thyagaraja"
-    ]
-  },
-  {
-    "title": "Evvari bodhana varnam",
-    "raagas": [
-      "Abhogi"
-    ],
-    "composers": [
-      "Patnam Subramania Iyer"
-    ]
-  },
-  {
-    "title": "Nekkurugi unnai",
-    "raagas": [
-      "Abhogi"
-    ],
-    "composers": [
-      "Papanasam Sivan"
-    ]
-  },
-  {
-    "title": "Manujudai Putti",
-    "raagas": [
-      "Abhogi"
-    ],
-    "composers": [
-      "Annamayya"
-    ]
-  },
-  {
-    "title": "Raga Sudha Rasa",
-    "raagas": [
-      "Andholika"
-    ],
-    "composers": [
-      "Thyagaraja"
-    ]
-  },
-  {
-    "title": "Sevikka Vendumayya in",
-    "raagas": [
-      "Andholika"
-    ],
-    "composers": [
-      "Muthu Thandavar"
-    ]
-  },
-  {
-    "title": "Manasa Sancharare",
-    "raagas": [
-      "Sama"
-    ],
-    "composers": [
-      "Sadashiva Brahmendra"
-    ]
-  },
-  {
-    "title": "Narayana Nalinayatha lochana",
-    "raagas": [
-      "Sama"
-    ],
-    "composers": [
-      "Papanasam Sivan"
-    ]
-  },
-  {
-    "title": "Maravakave o manasa",
-    "raagas": [
-      "Sama"
-    ],
-    "composers": [
-      "Patnam Subramaniam Iyer"
-    ]
-  },
-  {
-    "title": "Manasuloni Marmamulu",
-    "raagas": [
-      "Hindolam"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Rama mantrava japiso",
-    "raagas": [
-      "Hindolam"
-    ],
-    "composers": [
-      "Purandaradasa"
-    ]
-  },
-  {
-    "title": "Neerajakshi Kamakshi",
-    "raagas": [
-      "Hindolam"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Saraswati Vidhiyuvathi",
-    "raagas": [
-      "Hindolam"
-    ],
-    "composers": [
-      "Dikshitar"
-    ]
-  },
-  {
-    "title": "Nambikettavar",
-    "raagas": [
-      "Hindolam"
-    ],
-    "composers": [
-      "Papanasam Sivan"
-    ]
-  },
-  {
-    "title": "Garuda Gamana",
-    "raagas": [
-      "Hindolam"
-    ],
-    "composers": [
-      "Annamacharya"
-    ]
-  },
-  {
-    "title": "Karpanai endralum karchilai endralum",
-    "raagas": [
-      "Hindolam"
-    ],
-    "composers": [
-      "Vali-TMS"
-    ]
-  },
-  {
-    "title": "Adamodi Galade",
-    "raagas": [
-      "Charukesi"
-    ],
-    "composers": [
-      "Thyagaraja"
-    ]
-  },
-  {
-    "title": "Innum En Manam varnam",
-    "raagas": [
-      "Charukesi"
-    ],
-    "composers": [
-      "Lalgudi Jayaraman"
-    ]
-  },
-  {
-    "title": "Samanyavalla Shri Hari",
-    "raagas": [
-      "Charukesi"
-    ],
-    "composers": [
-      "Purandaradasar"
-    ]
-  },
-  {
-    "title": "Panchashat peetaroopini",
-    "raagas": [
-      "Karnataka Devagandhari"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Kayarohanesham",
-    "raagas": [
-      "Karnataka Devagandhari"
-    ],
-    "composers": [
-      "Dikshithar"
-    ]
-  },
-  {
-    "title": "Eppadi padinaro",
-    "raagas": [
-      "Karnataka Devagandhari"
-    ],
-    "composers": [
-      "Sudhananda Bharathi"
-    ]
-  },
-  {
-    "title": "Entha cheluvage",
-    "raagas": [
-      "Karnataka Devagandhari"
-    ],
-    "composers": [
-      "Purandaradasar"
-    ]
-  },
-  {
-    "title": "Enta Nerchina",
-    "raagas": [
-      "Sudha Dhanyasi"
-    ],
-    "composers": [
-      "Tyagaraja"
-    ]
-  },
-  {
-    "title": "Himagiri Tanaye",
-    "raagas": [
-      "Sudha Dhanyasi"
-    ],
-    "composers": [
-      "Muttiah Bhagavathar"
-    ]
-  },
-  {
-    "title": "Subrahmanyena Rakshitom",
-    "raagas": [
-      "Sudha Dhanyasi"
-    ],
-    "composers": [
-      "Dikshithar"
-    ]
-  },
-  {
-    "title": "Narayana ninna",
-    "raagas": [
-      "Sudha Dhanyasi"
-    ],
-    "composers": [
-      "Purandaradasar"
-    ]
-  },
-  {
-    "title": "Bhavamulona",
-    "raagas": [
-      "Sudha Dhanyasi"
-    ],
-    "composers": [
-      "Annamayya"
-    ]
-  },
-  {
-    "title": "Varnam Viriboni",
-    "raagas": [
-      "Bhairavi"
-    ],
-    "composers": [
-      "Pacchimiriam Adiappayya"
-    ]
-  },
-  {
-    "title": "Koluvaiyunnade",
-    "raagas": [
-      "Bhairavi"
-    ],
-    "composers": [
-      "Thyagaraja"
-    ]
-  },
-  {
-    "title": "Upacharamulanu Chekonavayya Thyagaraja",
-    "raagas": [
-      "Bhairavi"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Enati nomu phalamo",
-    "raagas": [
-      "Bhairavi"
-    ],
-    "composers": [
-      "Thyagaraja"
-    ]
-  },
-  {
-    "title": "Lalithe Sri Pravriddhe",
-    "raagas": [
-      "Bhairavi"
-    ],
-    "composers": [
-      "Thyagaraja"
-    ]
-  },
-  {
-    "title": "Sri Kamalambayah Param",
-    "raagas": [
-      "Bhairavi"
-    ],
-    "composers": [
-      "Dikshithar"
-    ]
-  },
-  {
-    "title": "Chintaya Makanda",
-    "raagas": [
-      "Bhairavi"
-    ],
-    "composers": [
-      "Dikshithar"
-    ]
-  },
-  {
-    "title": "Balagopala Palayashumam",
-    "raagas": [
-      "Bhairavi"
-    ],
-    "composers": [
-      "Dikshithar"
-    ]
-  },
-  {
-    "title": "(Swarajati)Kamakshi Amba",
-    "raagas": [
-      "Bhairavi"
-    ],
-    "composers": [
-      "Syama Shastri"
-    ]
-  },
-  {
-    "title": "Yaro Ivar Yaro",
-    "raagas": [
-      "Bhairavi"
-    ],
-    "composers": [
-      "Arunachala Kavi"
-    ]
-  },
-  {
-    "title": "Nee Paadamule",
-    "raagas": [
-      "Bhairavi"
-    ],
-    "composers": [
-      "Patnam Subramania Iyer"
-    ]
-  },
-  {
-    "title": "Janani Mamava (5th navaratri kriti)",
-    "raagas": [
-      "Bhairavi"
-    ],
-    "composers": [
-      "Swathi Thirunal"
-    ]
-  },
-  {
-    "title": "Raghukula Thilamayi",
-    "raagas": [
-      "Bhairavi"
-    ],
-    "composers": [
-      "Swathi Thirunal"
-    ]
-  },
-  {
-    "title": "Eththanai kaettaalum",
-    "raagas": [
-      "Bhairavi"
-    ],
-    "composers": [
-      "Oottukkadu Venkata Kavi"
-    ]
-  },
-  {
-    "title": "Odi baariyya",
-    "raagas": [
-      "Bhairavi"
-    ],
-    "composers": [
-      "Purandara Dasar Indu enage govinda"
-    ]
-  },
-  {
-    "title": "Ikanannu brovakunna",
-    "raagas": [
-      "Bhairavi"
-    ],
-    "composers": [
-      "Pallavi Seshayyar"
-    ]
-  },
-  {
-    "title": "Keesu Keesendru",
-    "raagas": [
-      "Bhairavi"
-    ],
-    "composers": [
-      "Andal"
-    ]
-  },
-  {
-    "title": "(Padam) Rama Rama Prana sakhi",
-    "raagas": [
-      "Bhairavi"
-    ],
-    "composers": []
-  },
-  {
-    "title": "(Javali) Elaradayane kamini",
-    "raagas": [
-      "Bhairavi"
-    ],
-    "composers": [
-      "Chinnaiah"
-    ]
-  },
-  {
-    "title": "Intakannananda",
-    "raagas": [
-      "Bilahai"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Dorakuna ituvanti",
-    "raagas": [
-      "Bilahai"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Kanukontini",
-    "raagas": [
-      "Bilahai"
-    ],
-    "composers": [
-      "Tyagaraja"
-    ]
-  },
-  {
-    "title": "Sri Balasubramanya",
-    "raagas": [
-      "Bilahai"
-    ],
-    "composers": [
-      "Muthuswami Dikshitar"
-    ]
-  },
-  {
-    "title": "Smara Sada",
-    "raagas": [
-      "Bilahai"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Aaradhayami",
-    "raagas": [
-      "Bilahai"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Parithana michite",
-    "raagas": [
-      "Bilahai"
-    ],
-    "composers": [
-      "Patnam Subramania Iyer"
-    ]
-  },
-  {
-    "title": "Sri Chamundeshwari",
-    "raagas": [
-      "Bilahai"
-    ],
-    "composers": [
-      "Mysore Vasudevacharya"
-    ]
-  },
-  {
-    "title": "Pooraya Mama Kamam (Tharangam)",
-    "raagas": [
-      "Bilahai"
-    ],
-    "composers": [
-      "Narayana Teertha"
-    ]
-  },
-  {
-    "title": "Kaligiyunte",
-    "raagas": [
-      "Keeravani"
-    ],
-    "composers": [
-      "Thyagaraja"
-    ]
-  },
-  {
-    "title": "Ambavani nannu",
-    "raagas": [
-      "Keeravani"
-    ],
-    "composers": [
-      "Muthiah Bhagavatar"
-    ]
-  },
-  {
-    "title": "Balasarasa Murali",
-    "raagas": [
-      "Keeravani"
-    ],
-    "composers": [
-      "Oottukkadu Venkata Kavi"
-    ]
-  },
-  {
-    "title": "Varamulosagi",
-    "raagas": [
-      "Keeravani"
-    ],
-    "composers": [
-      "Patnam Subramania Iyer"
-    ]
-  },
-  {
-    "title": "Devi neeye thunai",
-    "raagas": [
-      "Keeravani"
-    ],
-    "composers": [
-      "Papanasam Sivan"
-    ]
-  },
-  {
-    "title": "Innamum Sandeha Padalamo",
-    "raagas": [
-      "Keeravani"
-    ],
-    "composers": [
-      "Gopalakrishna Bharathi"
-    ]
-  },
-  {
-    "title": "vinayagane vinai theerpavane",
-    "raagas": [
-      "Keeravani"
-    ],
-    "composers": [
-      "Ulundhurpettai Shanmugam"
-    ]
-  },
-  {
-    "title": "Karunakarane Shivashankarane",
-    "raagas": [
-      "Keeravani"
-    ],
-    "composers": [
-      "Papanasam Sivan"
-    ]
-  },
-  {
-    "title": "Vaananai mathi soodiya",
-    "raagas": [
-      "Keeravani"
-    ],
-    "composers": [
-      "Appar"
-    ]
-  },
-  {
-    "title": "Manavyala kinchara",
-    "raagas": [
-      "Nalinakanthi"
-    ],
-    "composers": [
-      "Thyagaraja"
-    ]
-  },
-  {
-    "title": "Nee Padhame Gathi Nalinakanthimathi",
-    "raagas": [
-      "Nalinakanthi"
-    ],
-    "composers": [
-      "GNB"
-    ]
-  },
-  {
-    "title": "Natajana Palini",
-    "raagas": [
-      "Nalinakanthi"
-    ],
-    "composers": [
-      "Tanjore Sankara Iyer"
-    ]
-  },
-  {
-    "title": "Neeve gathi varnam",
-    "raagas": [
-      "Nalinakanthi"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Esane kotisurya prakasane",
-    "raagas": [
-      "Nalinakanthi"
-    ],
-    "composers": [
-      "Muthuthandavar"
-    ]
-  },
-  {
-    "title": "Kaliyuga varadan kankanda deivamai",
-    "raagas": [
-      "Brindavani"
-    ],
     "composers": [
-      "Periyasamy Thooran"
+      "Pallavi Doraiswamy Iyer"
     ]
   },
   {
-    "title": "Jagajjanani",
+    "title": "Anname aravabharanai varnam",
     "raagas": [
-      "Rathipathipriya"
+      "Arabhi"
     ],
     "composers": [
-      "Ghanam Krishnaiyer"
+      "Tiger Varadachariar"
     ]
   },
   {
-    "title": "Bhagyada Lakshmi Baaramma",
+    "title": "Lalisidalu Magana",
     "raagas": [
-      "Madhyamavathi"
+      "Arabhi"
     ],
     "composers": [
       "Purandara Dasar"
     ]
   },
   {
-    "title": "Muchchada brahma",
+    "title": "Chutamu rare",
     "raagas": [
-      "Madhyamavathi"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Evariccirira",
-    "raagas": [
-      "Madhyamavathi"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Rama Katha Sudharasa",
-    "raagas": [
-      "Madhyamavathi"
+      "Arabhi"
     ],
     "composers": [
       "Thyagaraja"
     ]
   },
   {
-    "title": "Dharmasamvardhini",
+    "title": "Saadinchane O Manasa",
     "raagas": [
-      "Madhyamavathi"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Palinchu kamakshi",
-    "raagas": [
-      "Madhyamavathi"
-    ],
-    "composers": [
-      "Shyama Sastri"
-    ]
-  },
-  {
-    "title": "Kosalendra mamavamita",
-    "raagas": [
-      "Madhyamavathi"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Sarasamukha sarasijanabha",
-    "raagas": [
-      "Madhyamavathi"
-    ],
-    "composers": [
-      "Swathi Thirunal"
-    ]
-  },
-  {
-    "title": "Sharavanabhava Guhane",
-    "raagas": [
-      "Madhyamavathi"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Karpagame Kan",
-    "raagas": [
-      "Madhyamavathi"
-    ],
-    "composers": [
-      "Papanasam Sivan"
-    ]
-  },
-  {
-    "title": "Aadaadhu Ashangaadhu vaa",
-    "raagas": [
-      "Madhyamavathi"
-    ],
-    "composers": [
-      "Oothukkadu Venkata Kavi"
-    ]
-  },
-  {
-    "title": "Adivo Alladivo",
-    "raagas": [
-      "Madhyamavathi"
-    ],
-    "composers": [
-      "Annamacharya"
-    ]
-  },
-  {
-    "title": "Shri Rama Jaya Bhuma",
-    "raagas": [
-      "Madhyamavathi"
-    ],
-    "composers": [
-      "Muthiah Bhagavatar"
-    ]
-  },
-  {
-    "title": "Harivarasanam",
-    "raagas": [
-      "Madhyamavathi"
-    ],
-    "composers": [
-      "K. Janaki Amma"
-    ]
-  },
-  {
-    "title": "Lambodara lakumikara",
-    "raagas": [
-      "Mayamalavagowla"
-    ],
-    "composers": [
-      "Purandaradasa"
-    ]
-  },
-  {
-    "title": "Adikkondar",
-    "raagas": [
-      "Mayamalavagowla"
-    ],
-    "composers": [
-      "Muthu Thandavar"
-    ]
-  },
-  {
-    "title": "Viharamanasa Rame",
-    "raagas": [
-      "Kapi"
-    ],
-    "composers": [
-      "Swathi thirunal"
-    ]
-  },
-  {
-    "title": "Namasudha",
-    "raagas": [
-      "Kapi"
-    ],
-    "composers": [
-      "Swathi Thirunal"
-    ]
-  },
-  {
-    "title": "Karthikeyanai",
-    "raagas": [
-      "Kapi"
-    ],
-    "composers": [
-      "Mayuram Viswanatha Sastri"
-    ]
-  },
-  {
-    "title": "Nee poi azhaithu vaadi",
-    "raagas": [
-      "Kapi"
-    ],
-    "composers": [
-      "Ambujam Krishna"
-    ]
-  },
-  {
-    "title": "Charanamule Nammiti",
-    "raagas": [
-      "Kapi"
-    ],
-    "composers": [
-      "Bhadrachala Ramadasar"
-    ]
-  },
-  {
-    "title": "Santana gopala krishnam",
-    "raagas": [
-      "Khamas"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Shadanane sakalam arpayami",
-    "raagas": [
-      "Khamas"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Sarasa Dala Nayana",
-    "raagas": [
-      "Khamas"
-    ],
-    "composers": [
-      "Dikshithar"
-    ]
-  },
-  {
-    "title": "Sujana jeevana",
-    "raagas": [
-      "Khamas"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Broche vaarevaru ra",
-    "raagas": [
-      "Khamas"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Intha paraakaelanayya",
-    "raagas": [
-      "Khamas"
-    ],
-    "composers": [
-      "Mysore Vasudevachar"
-    ]
-  },
-  {
-    "title": "Idathu padam thookki",
-    "raagas": [
-      "Khamas"
-    ],
-    "composers": [
-      "Papanasam Sivan"
-    ]
-  },
-  {
-    "title": "Thillana",
-    "raagas": [
-      "Khamas"
-    ],
-    "composers": [
-      "Patnam Subramania Iyer"
-    ]
-  },
-  {
-    "title": "Dolayam chala Dolayam chala",
-    "raagas": [
-      "Khamas"
-    ],
-    "composers": [
-      "Annamacharya"
-    ]
-  },
-  {
-    "title": "Mate malaya dhvaja pandya sanjate",
-    "raagas": [
-      "Khamas"
-    ],
-    "composers": [
-      "Muthiah Bhagavatar"
-    ]
-  },
-  {
-    "title": "Sarasa sama mukha",
-    "raagas": [
-      "Khamas"
-    ],
-    "composers": []
-  },
-  {
-    "title": "Jayati jayati bharata mata",
-    "raagas": [
-      "Khamas"
-    ],
-    "composers": [
-      "Mayuram Vishvanatha shastri"
-    ]
-  },
-  {
-    "title": "Konji konji va Guhane",
-    "raagas": [
-      "Khamas"
-    ],
-    "composers": [
-      "Periyasamy Thooran"
-    ]
-  },
-  {
-    "title": "Jamboopathe",
-    "raagas": [
-      "Yamunakalyani"
-    ],
-    "composers": [
-      "Dikshithar"
-    ]
-  },
-  {
-    "title": "Krishna Nee Begane",
-    "raagas": [
-      "Yamunakalyani"
-    ],
-    "composers": [
-      "Vyasatirtha"
-    ]
-  },
-  {
-    "title": "Bhavayami Gopalam",
-    "raagas": [
-      "Yamunakalyani"
-    ],
-    "composers": [
-      "Annamayya"
-    ]
-  },
-  {
-    "title": "Pibare Ramarasam",
-    "raagas": [
-      "Yamunakalyani"
-    ],
-    "composers": [
-      "Sadashiva Brahmendra"
-    ]
-  },
-  {
-    "title": "O Rama Nee Nama",
-    "raagas": [
-      "Yamunakalyani"
-    ],
-    "composers": [
-      "Bhadrachala Ramadasu"
-    ]
-  },
-  {
-    "title": "Sri Ramachandra Kripalu",
-    "raagas": [
-      "Yamunakalyani"
-    ],
-    "composers": [
-      "Sant Tulsidas"
-    ]
-  },
-  {
-    "title": "Haridasulu",
-    "raagas": [
-      "Yamunakalyani"
-    ],
-    "composers": [
-      "Tyagaraja"
-    ]
-  },
-  {
-    "title": "Intha modi varnam",
-    "raagas": [
-      "Saranga"
-    ],
-    "composers": [
-      "Thiruvotriyur Thyagaiyer"
-    ]
-  },
-  {
-    "title": "Gana Nathane",
-    "raagas": [
-      "Saranga"
-    ],
-    "composers": [
-      "Periyasamy Thooran"
-    ]
-  },
-  {
-    "title": "Arunachala natham smarami",
-    "raagas": [
-      "Saranga"
-    ],
-    "composers": [
-      "Dikshithar"
-    ]
-  },
-  {
-    "title": "Mamava Raghurama",
-    "raagas": [
-      "Saranga"
+      "Arabhi"
     ],
     "composers": [
       "Thyagaraja"
+    ]
+  },
+  {
+    "title": "Chaala kallalaadu",
+    "raagas": [
+      "Arabhi"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
+  },
+  {
+    "title": "O Rajeevaksha",
+    "raagas": [
+      "Arabhi"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
+  },
+  {
+    "title": "Nada sudha rasa",
+    "raagas": [
+      "Arabhi"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
+  },
+  {
+    "title": "Ganarajena rakshitoham",
+    "raagas": [
+      "Arabhi"
+    ],
+    "composers": [
+      "Dikshithar"
+    ]
+  },
+  {
+    "title": "Sri Saraswati namosthuthe",
+    "raagas": [
+      "Arabhi"
+    ],
+    "composers": [
+      "Dikshithar"
+    ]
+  },
+  {
+    "title": "Marakoti koti lavanya",
+    "raagas": [
+      "Arabhi"
+    ],
+    "composers": [
+      "Dikshithar"
+    ]
+  },
+  {
+    "title": "Paahi Parvata Nandini",
+    "raagas": [
+      "Arabhi"
+    ],
+    "composers": [
+      "Swathi Thirunal"
+    ]
+  },
+  {
+    "title": "Narasimham Mamava",
+    "raagas": [
+      "Arabhi"
+    ],
+    "composers": [
+      "Swathi Thirunal"
+    ]
+  },
+  {
+    "title": "kalyana rama",
+    "raagas": [
+      "Hamsanadam"
+    ],
+    "composers": [
+      "Oothukadu Venkatakavi"
+    ]
+  },
+  {
+    "title": "Bantureethi Koluvu",
+    "raagas": [
+      "Hamsanadam"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
+  },
+  {
+    "title": "Kripanidhe",
+    "raagas": [
+      "Hamsanadam"
+    ],
+    "composers": [
+      "Muthiah Bhagavatar"
+    ]
+  },
+  {
+    "title": "Pada vendume",
+    "raagas": [
+      "Hamsanadam"
+    ],
+    "composers": [
+      "Dandapani Desikar"
+    ]
+  },
+  {
+    "title": "\u200bSri chakra raja simhasaneswari",
+    "raagas": [
+      "Ragamalika"
+    ],
+    "composers": [
+      "Agastya"
     ]
   },
   {
     "title": "Ennai Nee Maravade of Dandapani Desikar",
     "raagas": [
-      "mrithavarshini"
+      "Amrithavarshini"
     ],
     "composers": []
   },
   {
     "title": "Sarasiruhanayane",
     "raagas": [
-      "mrithavarshini"
+      "Amrithavarshini"
     ],
     "composers": [
       "Thyagaraja"
@@ -2167,7 +180,7 @@ const songlist = `[
   {
     "title": "Aananda amrutakarshini amritavarshini",
     "raagas": [
-      "mrithavarshini"
+      "Amrithavarshini"
     ],
     "composers": [
       "Dikshitar"
@@ -2176,7 +189,7 @@ const songlist = `[
   {
     "title": "Siddhi Nayakena",
     "raagas": [
-      "mrithavarshini"
+      "Amrithavarshini"
     ],
     "composers": [
       "Balamuralikrishna"
@@ -2185,14 +198,14 @@ const songlist = `[
   {
     "title": "Sthirata Nahi Nahi Re of Sadashiva Brahmendra",
     "raagas": [
-      "mrithavarshini"
+      "Amrithavarshini"
     ],
     "composers": []
   },
   {
     "title": "Sudhamayee Sudhanidi",
     "raagas": [
-      "mrithavarshini"
+      "Amrithavarshini"
     ],
     "composers": [
       "Muthiah Bhagavatar"
@@ -2201,7 +214,7 @@ const songlist = `[
   {
     "title": "Anni Mantramulu Inde",
     "raagas": [
-      "mrithavarshini"
+      "Amrithavarshini"
     ],
     "composers": [
       "Annamacharya"
@@ -2210,7 +223,7 @@ const songlist = `[
   {
     "title": "Mayil vahana manamohana",
     "raagas": [
-      "mrithavarshini"
+      "Amrithavarshini"
     ],
     "composers": [
       "Mayuram Viswanatha Sastri"
@@ -2851,6 +864,13 @@ const songlist = `[
     ]
   },
   {
+    "title": "Raghuvara Naanu",
+    "raagas": [
+      "Pantuvarali"
+    ],
+    "composers": []
+  },
+  {
     "title": "Ninne Nera",
     "raagas": [
       "Pantuvarali"
@@ -2872,6 +892,20 @@ const songlist = `[
     "composers": []
   },
   {
+    "title": "Shambho Mahadeva",
+    "raagas": [
+      "Pantuvarali"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Siva Siva Sive Ena Radha",
+    "raagas": [
+      "Pantuvarali"
+    ],
+    "composers": []
+  },
+  {
     "title": "Aparama",
     "raagas": [
       "Pantuvarali"
@@ -2884,6 +918,22 @@ const songlist = `[
       "Pantuvarali"
     ],
     "composers": []
+  },
+  {
+    "title": "Naradamuni",
+    "raagas": [
+      "Pantuvarali"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Shobane (Utsava Sampradaya)",
+    "raagas": [
+      "Pantuvarali"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
   },
   {
     "title": "Ramanatham Bhajeham",
@@ -2918,6 +968,22 @@ const songlist = `[
     "composers": [
       "Bhadrachala Ramadasar"
     ]
+  },
+  {
+    "title": "Ennalu urake",
+    "raagas": [
+      "Shubhapantuvarali"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
+  },
+  {
+    "title": "Sri Satyanarayanam",
+    "raagas": [
+      "Shubhapantuvarali"
+    ],
+    "composers": []
   },
   {
     "title": "Pasupatheeswaram",
@@ -2983,11 +1049,86 @@ const songlist = `[
     ]
   },
   {
+    "title": "Eppo Varuvaro",
+    "raagas": [
+      "Jonpuri"
+    ],
+    "composers": [
+      "Gopalakrishna Bharathi"
+    ]
+  },
+  {
+    "title": "Sapasyat kausalya",
+    "raagas": [
+      "Jonpuri"
+    ],
+    "composers": [
+      "Panchapakesa Sastri"
+    ]
+  },
+  {
+    "title": "Rama mantrava",
+    "raagas": [
+      "Jonpuri"
+    ],
+    "composers": [
+      "Purandaradasa"
+    ]
+  },
+  {
+    "title": "Asai Mugham Marandhu Poche",
+    "raagas": [
+      "Jonpuri"
+    ],
+    "composers": [
+      "Bhaaratiyaar"
+    ]
+  },
+  {
+    "title": "Chidanandadam Srinivasam",
+    "raagas": [
+      "Jonpuri"
+    ],
+    "composers": [
+      "Kalyani Varadarajan"
+    ]
+  },
+  {
+    "title": "Marubalka",
+    "raagas": [
+      "Sriranjani"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Brochevarevare",
+    "raagas": [
+      "Sriranjani"
+    ],
+    "composers": []
+  },
+  {
     "title": "Sari evvare",
     "raagas": [
       "Sriranjani"
     ],
     "composers": []
+  },
+  {
+    "title": "Bhuvini daasudane",
+    "raagas": [
+      "Sriranjani"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Sogasuga mrudanga talamu",
+    "raagas": [
+      "Sriranjani"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
   },
   {
     "title": "Ni sati deivamu",
@@ -3013,6 +1154,29 @@ const songlist = `[
     ]
   },
   {
+    "title": "Ini oru kanam unnai",
+    "raagas": [
+      "Sriranjani"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Kaana Vendamo",
+    "raagas": [
+      "Sriranjani"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Gajavadana karuna",
+    "raagas": [
+      "Sriranjani"
+    ],
+    "composers": [
+      "Papanasam Sivan"
+    ]
+  },
+  {
     "title": "Srinivasa Enna Bittu",
     "raagas": [
       "Sriranjani"
@@ -3031,11 +1195,27 @@ const songlist = `[
     ]
   },
   {
+    "title": "Ramanannu brovara",
+    "raagas": [
+      "Harikambhoji"
+    ],
+    "composers": []
+  },
+  {
     "title": "Entara neethana",
     "raagas": [
       "Harikambhoji"
     ],
     "composers": []
+  },
+  {
+    "title": "Dinamani vamsha",
+    "raagas": [
+      "Harikambhoji"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
   },
   {
     "title": "Enadu manam kavalai",
@@ -3063,6 +1243,20 @@ const songlist = `[
     "composers": [
       "Ashok R Madhav"
     ]
+  },
+  {
+    "title": "Nidhi chala sukhama",
+    "raagas": [
+      "Kalyani"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Vasudevayani",
+    "raagas": [
+      "Kalyani"
+    ],
+    "composers": []
   },
   {
     "title": "Etavunara",
@@ -3134,7 +1328,14 @@ const songlist = `[
     ]
   },
   {
-    "title": "Kamalambikayai,",
+    "title": "Kamalambikayai",
+    "raagas": [
+      "Kambhoji"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Shri Subrahmanyaya Namaste",
     "raagas": [
       "Kambhoji"
     ],
@@ -3147,6 +1348,15 @@ const songlist = `[
     ],
     "composers": [
       "Muthuswami Dikshitar"
+    ]
+  },
+  {
+    "title": "Sarasijanabha (Varnam)",
+    "raagas": [
+      "Kambhoji"
+    ],
+    "composers": [
+      "Swathi Thirunale"
     ]
   },
   {
@@ -3205,7 +1415,28 @@ const songlist = `[
     "composers": []
   },
   {
+    "title": "Dasarathi nee runamu",
+    "raagas": [
+      "Thodi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Aragimpave",
+    "raagas": [
+      "Thodi"
+    ],
+    "composers": []
+  },
+  {
     "title": "Rajuvedale",
+    "raagas": [
+      "Thodi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Chesinadella",
     "raagas": [
       "Thodi"
     ],
@@ -3219,12 +1450,49 @@ const songlist = `[
     "composers": []
   },
   {
+    "title": "Emi jesithe nemi",
+    "raagas": [
+      "Thodi"
+    ],
+    "composers": []
+  },
+  {
     "title": "Gati Neevani",
     "raagas": [
       "Thodi"
     ],
     "composers": [
       "Thyagaraja"
+    ]
+  },
+  {
+    "title": "Sarasijanabha Murare",
+    "raagas": [
+      "Thodi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Shri Krishnam",
+    "raagas": [
+      "Thodi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Daakshayani",
+    "raagas": [
+      "Thodi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Kamalambike",
+    "raagas": [
+      "Thodi"
+    ],
+    "composers": [
+      "Muthuswami Dikshitar"
     ]
   },
   {
@@ -3267,6 +1535,15 @@ const songlist = `[
     "composers": []
   },
   {
+    "title": "Thamatham en swami",
+    "raagas": [
+      "Thodi"
+    ],
+    "composers": [
+      "Papanasam Sivan"
+    ]
+  },
+  {
     "title": "Ninne namminanu",
     "raagas": [
       "Thodi"
@@ -3274,6 +1551,22 @@ const songlist = `[
     "composers": [
       "Shyama Shastri"
     ]
+  },
+  {
+    "title": "Thaye Yashoda",
+    "raagas": [
+      "Thodi"
+    ],
+    "composers": [
+      "Oothukadu Venkata Subbier"
+    ]
+  },
+  {
+    "title": "Ananda Natesa -Ramaswamy Sivan",
+    "raagas": [
+      "Thodi"
+    ],
+    "composers": []
   },
   {
     "title": "Thanithirunthu Vazhum",
@@ -3294,22 +1587,18 @@ const songlist = `[
     ]
   },
   {
-    "title": "Geetham- Kalaimagale",
+    "title": "Geetham- Kalaimagale Periyasamy Thooran",
     "raagas": [
       "Thodi"
     ],
-    "composers": [
-      "Periyasamy Thooran"
-    ]
+    "composers": []
   },
   {
-    "title": "Varnam- Kanakangi",
+    "title": "Varnam- Kanakangi Pallavi Gopalaiyer",
     "raagas": [
       "Thodi"
     ],
-    "composers": [
-      "Pallavi Gopalaiyer"
-    ]
+    "composers": []
   },
   {
     "title": "Meenalochani amba",
@@ -3321,6 +1610,27 @@ const songlist = `[
     ]
   },
   {
+    "title": "Swararagha Sudha rasa",
+    "raagas": [
+      "Sankarabaranam"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Saroja dala netri",
+    "raagas": [
+      "Sankarabaranam"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Shyamale Meenakshi",
+    "raagas": [
+      "Sankarabaranam"
+    ],
+    "composers": []
+  },
+  {
     "title": "Thookiya thiruvadi SudhanandabBharathi",
     "raagas": [
       "Sankarabaranam"
@@ -3328,12 +1638,591 @@ const songlist = `[
     "composers": []
   },
   {
-    "title": "Kalyana Gopalam",
+    "title": "Venkatachala Nilayam - Purandara dasa",
     "raagas": [
       "Sindubhairavi"
     ],
+    "composers": []
+  },
+  {
+    "title": "Kalyana Gopalam - Narayana Theertha",
+    "raagas": [
+      "Sindubhairavi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Rama Neepai",
+    "raagas": [
+      "Kedaram"
+    ],
     "composers": [
-      "Narayana Theertha"
+      "Tyagaraja"
+    ]
+  },
+  {
+    "title": "Ananda natana prakasham",
+    "raagas": [
+      "Kedaram"
+    ],
+    "composers": [
+      "Muthuswami Dikshitar"
+    ]
+  },
+  {
+    "title": "Hare Paripahimam Mysore Vasudevachar",
+    "raagas": [
+      "Kedaram"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Harinarayana",
+    "raagas": [
+      "Kedaram"
+    ],
+    "composers": [
+      "Purandaradasar"
+    ]
+  },
+  {
+    "title": "Chakkani raja margamu ",
+    "raagas": [
+      "Karaharapriya"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Pakkala Nilaba\u1e0di",
+    "raagas": [
+      "Karaharapriya"
+    ],
+    "composers": []
+  },
+  {
+    "title": "R\u0101m\u0101 n\u012b sam\u0101namevaru",
+    "raagas": [
+      "Karaharapriya"
+    ],
+    "composers": [
+      "Tyagaraja"
+    ]
+  },
+  {
+    "title": "Senthil andavan",
+    "raagas": [
+      "Karaharapriya"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Janaki pathe",
+    "raagas": [
+      "Karaharapriya"
+    ],
+    "composers": [
+      "Papanasam Sivan"
+    ]
+  },
+  {
+    "title": "Okkaparikokkapari",
+    "raagas": [
+      "Karaharapriya"
+    ],
+    "composers": [
+      "Annamacharya"
+    ]
+  },
+  {
+    "title": "Paluke bangaramayana",
+    "raagas": [
+      "Anandabhairavi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Manasa Guruguha rupam",
+    "raagas": [
+      "Anandabhairavi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Marivere gati",
+    "raagas": [
+      "Anandabhairavi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Singara velavan vandan",
+    "raagas": [
+      "Anandabhairavi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Samagana priye",
+    "raagas": [
+      "Anandabhairavi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Rama nama payasake Krishna nama",
+    "raagas": [
+      "Anandabhairavi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Karpagavalli nin porpadangal pidithen",
+    "raagas": [
+      "Anandabhairavi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Vaddane vaaru",
+    "raagas": [
+      "Shanmukhapriya"
+    ],
+    "composers": [
+      "Tyagaraja"
+    ]
+  },
+  {
+    "title": "Marivere Dikkevarayya",
+    "raagas": [
+      "Shanmukhapriya"
+    ],
+    "composers": [
+      "Patnam Subramania Iyer"
+    ]
+  },
+  {
+    "title": "Parvati nayakane",
+    "raagas": [
+      "Shanmukhapriya"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Saravana bhava ennum",
+    "raagas": [
+      "Shanmukhapriya"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Andavane unnai",
+    "raagas": [
+      "Shanmukhapriya"
+    ],
+    "composers": [
+      "Papanasam Sivan"
+    ]
+  },
+  {
+    "title": "Valli Nayakane",
+    "raagas": [
+      "Shanmukhapriya"
+    ],
+    "composers": [
+      "Muthiah Bhagavatar"
+    ]
+  },
+  {
+    "title": "Siddhi Vinayakam",
+    "raagas": [
+      "Shanmukhapriya"
+    ],
+    "composers": [
+      "Muthuswami Dikshithar"
+    ]
+  },
+  {
+    "title": "Samaja vara gamana",
+    "raagas": [
+      "Hindolam"
+    ],
+    "composers": [
+      "Tyagaraja"
+    ]
+  },
+  {
+    "title": "G\u014dvardhana Gir\u012b\u015bam Smar\u0101mi",
+    "raagas": [
+      "Hindolam"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Neerajakshi Kamakshi",
+    "raagas": [
+      "Hindolam"
+    ],
+    "composers": [
+      "Muthuswami Dikshitar"
+    ]
+  },
+  {
+    "title": "Maa Ramanan",
+    "raagas": [
+      "Hindolam"
+    ],
+    "composers": []
+  },
+  {
+    "title": "S\u0101ma G\u0101na lolalane",
+    "raagas": [
+      "Hindolam"
+    ],
+    "composers": []
+  },
+  {
+    "title": "and Nambikettavar",
+    "raagas": [
+      "Hindolam"
+    ],
+    "composers": [
+      "Papanasam Sivan"
+    ]
+  },
+  {
+    "title": "Mamavatu Sri Saraswati",
+    "raagas": [
+      "Hindolam"
+    ],
+    "composers": [
+      "Mysore Vasudevacharya"
+    ]
+  },
+  {
+    "title": "Chintayami Jagadamba",
+    "raagas": [
+      "Hindolam"
+    ],
+    "composers": [
+      "Jayachamarajendra Wodeyar"
+    ]
+  },
+  {
+    "title": "D\u0113va D\u0113va\u1e43 Bhaj\u0113",
+    "raagas": [
+      "Hindolam"
+    ],
+    "composers": [
+      "Annamacharya"
+    ]
+  },
+  {
+    "title": "Ramanakku Mannan Mudi",
+    "raagas": [
+      "Hindolam"
+    ],
+    "composers": [
+      "Arunachala Kavi"
+    ]
+  },
+  {
+    "title": "Vathabi ganapathim baje",
+    "raagas": [
+      "Hamsadwani"
+    ],
+    "composers": []
+  },
+  {
+    "title": "The geetham Varavina mridupani  Ninnukori  varnam",
+    "raagas": [
+      "Mohanam"
+    ],
+    "composers": [
+      "Poochi Srinivasa Iyengar"
+    ]
+  },
+  {
+    "title": "Mohana rama",
+    "raagas": [
+      "Mohanam"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Nannu palimpa",
+    "raagas": [
+      "Mohanam"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Darayani",
+    "raagas": [
+      "Mohanam"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Rama ninnu nammina",
+    "raagas": [
+      "Mohanam"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Evarura ninnuvina",
+    "raagas": [
+      "Mohanam"
+    ],
+    "composers": []
+  },
+  {
+    "title": "and Bhavanutha",
+    "raagas": [
+      "Mohanam"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
+  },
+  {
+    "title": "Narasimha Agaccha",
+    "raagas": [
+      "Mohanam"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Kadambari priyayaih ",
+    "raagas": [
+      "Mohanam"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Gopika manoharamby Muthuswamy Dikshitar",
+    "raagas": [
+      "Mohanam"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Kapaali",
+    "raagas": [
+      "Mohanam"
+    ],
+    "composers": []
+  },
+  {
+    "title": "karunai",
+    "raagas": [
+      "Mohanam"
+    ],
+    "composers": []
+  },
+  {
+    "title": "and Narayana divyanamam",
+    "raagas": [
+      "Mohanam"
+    ],
+    "composers": [
+      "Papanasam Sivan"
+    ]
+  },
+  {
+    "title": "Rara Rajiva lochana",
+    "raagas": [
+      "Mohanam"
+    ],
+    "composers": [
+      "Mysore Vasudevachar"
+    ]
+  },
+  {
+    "title": "En palli kondeer aiyya",
+    "raagas": [
+      "Mohanam"
+    ],
+    "composers": [
+      "Arunachala Kavi"
+    ]
+  },
+  {
+    "title": "Swagatam Krishna",
+    "raagas": [
+      "Mohanam"
+    ],
+    "composers": [
+      "Oottukkadu Venkata Kavi"
+    ]
+  },
+  {
+    "title": "Ninne kori, varnam",
+    "raagas": [
+      "Vasantha"
+    ],
+    "composers": [
+      "Tecchur Singarachari"
+    ]
+  },
+  {
+    "title": "Sitamma Mayamma",
+    "raagas": [
+      "Vasantha"
+    ],
+    "composers": [
+      "Tyagaraja"
+    ]
+  },
+  {
+    "title": "Harihara putram",
+    "raagas": [
+      "Vasantha"
+    ],
+    "composers": []
+  },
+  {
+    "title": "and Ramachandram Bhavayami",
+    "raagas": [
+      "Vasantha"
+    ],
+    "composers": [
+      "Muthuswami Dikshitar"
+    ]
+  },
+  {
+    "title": "Paramapurusha Jagadeesha",
+    "raagas": [
+      "Vasantha"
+    ],
+    "composers": [
+      "Swathi Thirunal"
+    ]
+  },
+  {
+    "title": "Malmaruga Shanmukha",
+    "raagas": [
+      "Vasantha"
+    ],
+    "composers": [
+      "Papanasam Sivan"
+    ]
+  },
+  {
+    "title": "Natanam Adinar",
+    "raagas": [
+      "Vasantha"
+    ],
+    "composers": [
+      "Gopalakrishna Bharathi'"
+    ]
+  },
+  {
+    "title": "Rajeswarim Sambhavaye",
+    "raagas": [
+      "Vasantha"
+    ],
+    "composers": [
+      "Ganapathi Sachchidananda Swamiji"
+    ]
+  },
+  {
+    "title": "Maha ganapathim",
+    "raagas": [
+      "Nattai"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Jagadananda karaka",
+    "raagas": [
+      "Nattai"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Swaminathan paripalaya",
+    "raagas": [
+      "Nattai"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Mokshamugalada",
+    "raagas": [
+      "Saramathi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Marukelara o Raghava",
+    "raagas": [
+      "Jayanthasri"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
+  },
+  {
+    "title": "Neeradasama neela Krishna",
+    "raagas": [
+      "Jayanthasri"
+    ],
+    "composers": [
+      "Oothukadu Venkata Kavi"
+    ]
+  },
+  {
+    "title": "Sridhara Pahimam",
+    "raagas": [
+      "Jayanthasri"
+    ],
+    "composers": [
+      "Mysore Vasudevacharya"
+    ]
+  },
+  {
+    "title": "Alai payude kanna",
+    "raagas": [
+      "Kanada"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Muddugare yasodha",
+    "raagas": [
+      "Kurinji"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Yochana kamala lochana",
+    "raagas": [
+      "Darbar"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Radha sametha Krishna",
+    "raagas": [
+      "Misra yaman"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Bho Sambho",
+    "raagas": [
+      "Revathi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Brahmam okate",
+    "raagas": [
+      "Bowli"
+    ],
+    "composers": [
+      "Annamacharya"
     ]
   },
   {
@@ -3343,6 +2232,24 @@ const songlist = `[
     ],
     "composers": [
       "Neelakanta Sivan"
+    ]
+  },
+  {
+    "title": "Sriman Narayana",
+    "raagas": [
+      "Bowli"
+    ],
+    "composers": [
+      "Annamacharya"
+    ]
+  },
+  {
+    "title": "Melukovayya",
+    "raagas": [
+      "Bowli"
+    ],
+    "composers": [
+      "Tyagaraja"
     ]
   },
   {
@@ -3389,7 +2296,23 @@ const songlist = `[
     ]
   },
   {
-    "title": "Kana kana ruchira,",
+    "title": "Theeratha vilayattu pillai",
+    "raagas": [
+      "Ragamalika"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Maitreem Bhajatha",
+    "raagas": [
+      "Ragamalika"
+    ],
+    "composers": [
+      "Sri Paramacharyar"
+    ]
+  },
+  {
+    "title": "Kana kana ruchira",
     "raagas": [
       "Varali"
     ],
@@ -3412,6 +2335,22 @@ const songlist = `[
     ]
   },
   {
+    "title": "Mamava Meenakshi",
+    "raagas": [
+      "Varali"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Seshachala nayakam",
+    "raagas": [
+      "Varali"
+    ],
+    "composers": [
+      "Muthuswami Dikshitar"
+    ]
+  },
+  {
     "title": "Karuna judavamma",
     "raagas": [
       "Varali"
@@ -3428,6 +2367,15 @@ const songlist = `[
     ]
   },
   {
+    "title": "Mamava Padmanabha",
+    "raagas": [
+      "Varali"
+    ],
+    "composers": [
+      "Swathi Thirunal"
+    ]
+  },
+  {
     "title": "Intha prodayye and Valapu",
     "raagas": [
       "Varali"
@@ -3435,6 +2383,13 @@ const songlist = `[
     "composers": [
       "Kshetrajna padam"
     ]
+  },
+  {
+    "title": "Ka Vaa Vaa",
+    "raagas": [
+      "Varali"
+    ],
+    "composers": []
   },
   {
     "title": "Dikku verillai",
@@ -3460,6 +2415,1873 @@ const songlist = `[
       "Varali"
     ],
     "composers": []
+  },
+  {
+    "title": "Srirama rama rama",
+    "raagas": [
+      "Neelambari"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Uyyala Lugavayya",
+    "raagas": [
+      "Neelambari"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Laliyugave of Tyagaraja",
+    "raagas": [
+      "Neelambari"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Amba Neelayadakshi",
+    "raagas": [
+      "Neelambari"
+    ],
+    "composers": [
+      "Dikshitar"
+    ]
+  },
+  {
+    "title": "Amba Neelambari",
+    "raagas": [
+      "Neelambari"
+    ],
+    "composers": [
+      "Ponniah Pillai"
+    ]
+  },
+  {
+    "title": "Narayana Theertha\u2019s \u2018Madhava Mamava\u2019",
+    "raagas": [
+      "Neelambari"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Oothukadu Venkatakavi\u2019s \u2018Maninupura Dhari\u2019",
+    "raagas": [
+      "Neelambari"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Tholiyu",
+    "raagas": [
+      "Neelambari"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Bangaru Murali",
+    "raagas": [
+      "Neelambari"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Kanthanodu chennu",
+    "raagas": [
+      "Neelambari"
+    ],
+    "composers": [
+      "Swathi thirunal"
+    ]
+  },
+  {
+    "title": "Anandavalli",
+    "raagas": [
+      "Neelambari"
+    ],
+    "composers": [
+      "Swathi thirunal"
+    ]
+  },
+  {
+    "title": "Sarasa",
+    "raagas": [
+      "Neelambari"
+    ],
+    "composers": [
+      "Swathi thirunal"
+    ]
+  },
+  {
+    "title": "Shringara lahari",
+    "raagas": [
+      "Neelambari"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Sri Valli deva senapathe",
+    "raagas": [
+      "Natabairavi"
+    ],
+    "composers": [
+      "Papanasam Sivan"
+    ]
+  },
+  {
+    "title": "Parulaseva",
+    "raagas": [
+      "Natabairavi"
+    ],
+    "composers": [
+      "Poochi Srinivasa  Iyengar"
+    ]
+  },
+  {
+    "title": "Jagadoddh\u0101rana",
+    "raagas": [
+      "Kapi"
+    ],
+    "composers": [
+      "Purandaradasa"
+    ]
+  },
+  {
+    "title": "Mee valla gunadoshamemi",
+    "raagas": [
+      "Kapi"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
+  },
+  {
+    "title": "Intha Sowkhya",
+    "raagas": [
+      "Kapi"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
+  },
+  {
+    "title": "Viharamanasa Rame",
+    "raagas": [
+      "Kapi"
+    ],
+    "composers": [
+      "Swathi thirunal"
+    ]
+  },
+  {
+    "title": "Enna thavam seydanai Yashoda",
+    "raagas": [
+      "Kapi"
+    ],
+    "composers": [
+      "Papanasam Sivan"
+    ]
+  },
+  {
+    "title": "Bhaja maadhavam anisham",
+    "raagas": [
+      "Kapi"
+    ],
+    "composers": [
+      "Mysore Vasudevacharya"
+    ]
+  },
+  {
+    "title": "Jaanaki ramana dasaratha nandana",
+    "raagas": [
+      "Kapi"
+    ],
+    "composers": [
+      "Vanamaamalia Jiyar Swami"
+    ]
+  },
+  {
+    "title": "Namasudha",
+    "raagas": [
+      "Kapi"
+    ],
+    "composers": [
+      "Swathi Thirunal"
+    ]
+  },
+  {
+    "title": "Chinnanchiru Kiliye",
+    "raagas": [
+      "Kapi"
+    ],
+    "composers": [
+      "Subramanya Bharathi"
+    ]
+  },
+  {
+    "title": "Karthikeyanai",
+    "raagas": [
+      "Kapi"
+    ],
+    "composers": [
+      "Mayuram Viswanatha Sastri"
+    ]
+  },
+  {
+    "title": "Nee poi azhaithu vaadi",
+    "raagas": [
+      "Kapi"
+    ],
+    "composers": [
+      "Ambujam Krishna"
+    ]
+  },
+  {
+    "title": "Charanamule Nammiti",
+    "raagas": [
+      "Kapi"
+    ],
+    "composers": [
+      "Bhadrachala Ramadasar"
+    ]
+  },
+  {
+    "title": "Santana gopala krishnam",
+    "raagas": [
+      "Khamas"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Shadanane sakalam arpayami",
+    "raagas": [
+      "Khamas"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Sarasa Dala Nayana",
+    "raagas": [
+      "Khamas"
+    ],
+    "composers": [
+      "Dikshithar"
+    ]
+  },
+  {
+    "title": "Sujana jeevana",
+    "raagas": [
+      "Khamas"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Seethapathe",
+    "raagas": [
+      "Khamas"
+    ],
+    "composers": [
+      "Tyagaraja"
+    ]
+  },
+  {
+    "title": "Entaninne",
+    "raagas": [
+      "Khamas"
+    ],
+    "composers": [
+      "Subbarama Dikshitar"
+    ]
+  },
+  {
+    "title": "Broche vaarevaru ra",
+    "raagas": [
+      "Khamas"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Intha paraakaelanayya",
+    "raagas": [
+      "Khamas"
+    ],
+    "composers": [
+      "Mysore Vasudevachar"
+    ]
+  },
+  {
+    "title": "Idathu padam thookki",
+    "raagas": [
+      "Khamas"
+    ],
+    "composers": [
+      "Papanasam Sivan"
+    ]
+  },
+  {
+    "title": "Thillana",
+    "raagas": [
+      "Khamas"
+    ],
+    "composers": [
+      "Patnam Subramania Iyer"
+    ]
+  },
+  {
+    "title": "Dolayam chala Dolayam chala",
+    "raagas": [
+      "Khamas"
+    ],
+    "composers": [
+      "Annamacharya"
+    ]
+  },
+  {
+    "title": "Mate malaya dhvaja pandya sanjate",
+    "raagas": [
+      "Khamas"
+    ],
+    "composers": [
+      "Muthiah Bhagavatar"
+    ]
+  },
+  {
+    "title": "Sarasa sama mukha",
+    "raagas": [
+      "Khamas"
+    ],
+    "composers": []
+  },
+  {
+    "title": "palaya mamayi",
+    "raagas": [
+      "Khamas"
+    ],
+    "composers": [
+      "Swathi Tirunal"
+    ]
+  },
+  {
+    "title": "Jayati jayati bharata mata",
+    "raagas": [
+      "Khamas"
+    ],
+    "composers": [
+      "Mayuram Vishvanatha shastri"
+    ]
+  },
+  {
+    "title": "Konji konji va Guhane",
+    "raagas": [
+      "Khamas"
+    ],
+    "composers": [
+      "Periyasamy Thooran"
+    ]
+  },
+  {
+    "title": "Jamboopathe",
+    "raagas": [
+      "Yamunakalyani"
+    ],
+    "composers": [
+      "Dikshithar"
+    ]
+  },
+  {
+    "title": "Krishna Nee Begane",
+    "raagas": [
+      "Yamunakalyani"
+    ],
+    "composers": [
+      "Vyasatirtha"
+    ]
+  },
+  {
+    "title": "Bhavayami Gopalam",
+    "raagas": [
+      "Yamunakalyani"
+    ],
+    "composers": [
+      "Annamayya"
+    ]
+  },
+  {
+    "title": "Pibare Ramarasam",
+    "raagas": [
+      "Yamunakalyani"
+    ],
+    "composers": [
+      "Sadashiva Brahmendra"
+    ]
+  },
+  {
+    "title": "O Rama Nee Nama",
+    "raagas": [
+      "Yamunakalyani"
+    ],
+    "composers": [
+      "Bhadrachala Ramadasu"
+    ]
+  },
+  {
+    "title": "Sri Ramachandra Kripalu",
+    "raagas": [
+      "Yamunakalyani"
+    ],
+    "composers": [
+      "Sant Tulsidas"
+    ]
+  },
+  {
+    "title": "Haridasulu",
+    "raagas": [
+      "Yamunakalyani"
+    ],
+    "composers": [
+      "Tyagaraja"
+    ]
+  },
+  {
+    "title": "Saranga",
+    "raagas": [
+      "Yamunakalyani"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Intha modi varnam",
+    "raagas": [
+      "Yamunakalyani"
+    ],
+    "composers": [
+      "Thiruvotriyur Thyagaiyer"
+    ]
+  },
+  {
+    "title": "Gana Nathane",
+    "raagas": [
+      "Yamunakalyani"
+    ],
+    "composers": [
+      "Periyasamy Thooran"
+    ]
+  },
+  {
+    "title": "Arunachala natham smarami",
+    "raagas": [
+      "Yamunakalyani"
+    ],
+    "composers": [
+      "Dikshithar"
+    ]
+  },
+  {
+    "title": "Mamava Raghurama",
+    "raagas": [
+      "Yamunakalyani"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
+  },
+  {
+    "title": "Evari Mata",
+    "raagas": [
+      "Kambhoji"
+    ],
+    "composers": []
+  },
+  {
+    "title": "O Ranga Sayee",
+    "raagas": [
+      "Kambhoji"
+    ],
+    "composers": [
+      "Tyagaraja"
+    ]
+  },
+  {
+    "title": "Marakathavallim",
+    "raagas": [
+      "Kambhoji"
+    ],
+    "composers": [
+      "Muthuswami Dikshitar"
+    ]
+  },
+  {
+    "title": "Kanakan Kodi Vendum  Papanasam Sivan",
+    "raagas": [
+      "Kambhoji"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Thodi",
+    "raagas": [
+      "Kambhoji"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Koluvamaregada kodandapani",
+    "raagas": [
+      "Kambhoji"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Kedaram",
+    "raagas": [
+      "Sindubhairavi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Okkapari kokkapari",
+    "raagas": [
+      "Karaharapriya"
+    ],
+    "composers": [
+      "Annamacharya"
+    ]
+  },
+  {
+    "title": "Saravana bhava enum thirumandiram",
+    "raagas": [
+      "Shanmukhapriya"
+    ],
+    "composers": []
+  },
+  {
+    "title": "The geetham Varavina mridupani",
+    "raagas": [
+      "Mohanam"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Ninnukori  varnam",
+    "raagas": [
+      "Mohanam"
+    ],
+    "composers": [
+      "Poochi Srinivasa Iyengar"
+    ]
+  },
+  {
+    "title": "Mamava sada Janani",
+    "raagas": [
+      "Kanada"
+    ],
+    "composers": [
+      "Swathi Thirunal"
+    ]
+  },
+  {
+    "title": "Sambho Mahadeva",
+    "raagas": [
+      "Bowli"
+    ],
+    "composers": [
+      "Tyagaraja"
+    ]
+  },
+  {
+    "title": "Eti janmamiti Tyagaraja",
+    "raagas": [
+      "Varali"
+    ],
+    "composers": []
+  },
+  {
+    "title": "\u200bEnnaga Manasu",
+    "raagas": [
+      "Neelambari"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Laliyugave",
+    "raagas": [
+      "Neelambari"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
+  },
+  {
+    "title": "Brovavamma",
+    "raagas": [
+      "Neelambari"
+    ],
+    "composers": [
+      "Shyama Sastri"
+    ]
+  },
+  {
+    "title": "Thookithale",
+    "raagas": [
+      "Neelambari"
+    ],
+    "composers": [
+      "Purandaradasa "
+    ]
+  },
+  {
+    "title": "Madhava Mamava",
+    "raagas": [
+      "Neelambari"
+    ],
+    "composers": [
+      "Narayana Theertha "
+    ]
+  },
+  {
+    "title": "Maninupura Dhari",
+    "raagas": [
+      "Neelambari"
+    ],
+    "composers": [
+      "Oothukadu Venkatakavi"
+    ]
+  },
+  {
+    "title": "Ninne Nera nammi",
+    "raagas": [
+      "Pantuvarali"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Appa rama bhakti",
+    "raagas": [
+      "Pantuvarali"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Sarasaksha paripalaya",
+    "raagas": [
+      "Pantuvarali"
+    ],
+    "composers": [
+      "Swati Tirunal"
+    ]
+  },
+  {
+    "title": "Paripahimam Shri Dasarathe",
+    "raagas": [
+      "Shubhapantuvarali"
+    ],
+    "composers": [
+      "Mysore Vasudevachariar"
+    ]
+  },
+  {
+    "title": "Saketha Niagara natha",
+    "raagas": [
+      "Harikambhoji"
+    ],
+    "composers": [
+      "Mysore Sadasiva rao"
+    ]
+  },
+  {
+    "title": "\u200bRangapura vihara",
+    "raagas": [
+      "Brindavanasaranga"
+    ],
+    "composers": [
+      "Dikshithar"
+    ]
+  },
+  {
+    "title": "Brahma Kadigina Padamu",
+    "raagas": [
+      "Mukhari"
+    ],
+    "composers": [
+      "Annamacharya"
+    ]
+  },
+  {
+    "title": "Ksheenamai",
+    "raagas": [
+      "Mukhari"
+    ],
+    "composers": [
+      "Tyagaraja"
+    ]
+  },
+  {
+    "title": "Elavatara",
+    "raagas": [
+      "Mukhari"
+    ],
+    "composers": [
+      "Tyagaraja"
+    ]
+  },
+  {
+    "title": "Endraikku Siva Krupai",
+    "raagas": [
+      "Mukhari"
+    ],
+    "composers": [
+      "Neelakanta Sivan"
+    ]
+  },
+  {
+    "title": "\u200bEthanai koti inbam vaithai",
+    "raagas": [
+      "Desh"
+    ],
+    "composers": [
+      "Bharathiyar"
+    ]
+  },
+  {
+    "title": "Thunbam neigayil yazheduthu",
+    "raagas": [
+      "Desh"
+    ],
+    "composers": [
+      "Bharathidasan"
+    ]
+  },
+  {
+    "title": "\u200bAkhilaandeshwari Rakshamaam",
+    "raagas": [
+      "Dwijavanthi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Chethashri Baalakrishnam",
+    "raagas": [
+      "Dwijavanthi"
+    ],
+    "composers": [
+      "Dikshithar"
+    ]
+  },
+  {
+    "title": "Tharuni jnan",
+    "raagas": [
+      "Dwijavanthi"
+    ],
+    "composers": [
+      "Swathi thirunal"
+    ]
+  },
+  {
+    "title": "Parimala Ranganatham",
+    "raagas": [
+      "Hameerkalyani"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Purahara Nandana",
+    "raagas": [
+      "Hameerkalyani"
+    ],
+    "composers": [
+      "Dikshithar"
+    ]
+  },
+  {
+    "title": "Manamuleda",
+    "raagas": [
+      "Hameerkalyani"
+    ],
+    "composers": [
+      "Thyagaraja Venkatasaila Vihara"
+    ]
+  },
+  {
+    "title": "Thoomani Madathu in Thiruppavai",
+    "raagas": [
+      "Hameerkalyani"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Nadamurali",
+    "raagas": [
+      "Hameerkalyani"
+    ],
+    "composers": [
+      "Oothukadu Venkatasubbier"
+    ]
+  },
+  {
+    "title": "Gangeya Vasana",
+    "raagas": [
+      "Hameerkalyani"
+    ],
+    "composers": [
+      "Swati Tirunal"
+    ]
+  },
+  {
+    "title": "Guruleka etuvanti",
+    "raagas": [
+      "Gowrimanohari"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
+  },
+  {
+    "title": "Varalakshmi Namostute",
+    "raagas": [
+      "Gowrimanohari"
+    ],
+    "composers": [
+      "Mysore Vasudevacharya"
+    ]
+  },
+  {
+    "title": "Brova Samayamide Ramayya",
+    "raagas": [
+      "Gowrimanohari"
+    ],
+    "composers": [
+      "Karur Devudu Iyer"
+    ]
+  },
+  {
+    "title": "Nagumomu ganaleni",
+    "raagas": [
+      "Abheri"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
+  },
+  {
+    "title": "Bhajare re manasa",
+    "raagas": [
+      "Abheri"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Gokula nilaya krupalaya",
+    "raagas": [
+      "Abheri"
+    ],
+    "composers": [
+      "Mysore Vasudevacharya"
+    ]
+  },
+  {
+    "title": "Vinabheri",
+    "raagas": [
+      "Abheri"
+    ],
+    "composers": [
+      "Dikshitar"
+    ]
+  },
+  {
+    "title": "Vellai thamarai",
+    "raagas": [
+      "Abheri"
+    ],
+    "composers": [
+      "Bharathiyar"
+    ]
+  },
+  {
+    "title": "Nannu brova",
+    "raagas": [
+      "Abhogi"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
+  },
+  {
+    "title": "\u015ari Lak\u1e63hmi var\u0101ham",
+    "raagas": [
+      "Abhogi"
+    ],
+    "composers": [
+      "Dikshitar"
+    ]
+  },
+  {
+    "title": "Sabh\u0101patikku veru daivam",
+    "raagas": [
+      "Abhogi"
+    ],
+    "composers": [
+      "Gopalakrishna Bharati"
+    ]
+  },
+  {
+    "title": "Evvari bodhana, varnam",
+    "raagas": [
+      "Abhogi"
+    ],
+    "composers": [
+      "Patnam Subramania Iyer"
+    ]
+  },
+  {
+    "title": "Nekkurugi unnai",
+    "raagas": [
+      "Abhogi"
+    ],
+    "composers": [
+      "Papanasam Sivan"
+    ]
+  },
+  {
+    "title": "Manujudai Putti",
+    "raagas": [
+      "Abhogi"
+    ],
+    "composers": [
+      "Annamayya"
+    ]
+  },
+  {
+    "title": "Raga Sudha Rasa",
+    "raagas": [
+      "Andholika"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
+  },
+  {
+    "title": "Sevikka Vendumayya in",
+    "raagas": [
+      "Andholika"
+    ],
+    "composers": [
+      "Muthu Thandavar"
+    ]
+  },
+  {
+    "title": "Annapurna Vishalakshi",
+    "raagas": [
+      "Sama"
+    ],
+    "composers": [
+      "Dikshithar"
+    ]
+  },
+  {
+    "title": "Santamu lekha",
+    "raagas": [
+      "Sama"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
+  },
+  {
+    "title": "Manasa Sancharare",
+    "raagas": [
+      "Sama"
+    ],
+    "composers": [
+      "Sadashiva Brahmendra"
+    ]
+  },
+  {
+    "title": "Narayana Nalinayatha lochana",
+    "raagas": [
+      "Sama"
+    ],
+    "composers": [
+      "Papanasam Sivan"
+    ]
+  },
+  {
+    "title": "Maravakave o manasa",
+    "raagas": [
+      "Sama"
+    ],
+    "composers": [
+      "Patnam Subramaniam Iyer"
+    ]
+  },
+  {
+    "title": "S\u0101majavara gaman\u0101",
+    "raagas": [
+      "Hindolam"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Manasuloni Marmamulu",
+    "raagas": [
+      "Hindolam"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Govardhana Giridhari",
+    "raagas": [
+      "Hindolam"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
+  },
+  {
+    "title": "Mamavatu \u015bri Sarasvati",
+    "raagas": [
+      "Hindolam"
+    ],
+    "composers": [
+      "Mysore Vasudevachar"
+    ]
+  },
+  {
+    "title": "Rama mantrava japiso",
+    "raagas": [
+      "Hindolam"
+    ],
+    "composers": [
+      "Purandaradasa"
+    ]
+  },
+  {
+    "title": "Saraswati Vidhiyuvathi",
+    "raagas": [
+      "Hindolam"
+    ],
+    "composers": [
+      "Dikshitar"
+    ]
+  },
+  {
+    "title": "Padmanabha P\u0101hi",
+    "raagas": [
+      "Hindolam"
+    ],
+    "composers": [
+      "Swathi Thirunal"
+    ]
+  },
+  {
+    "title": "Nambikettavar",
+    "raagas": [
+      "Hindolam"
+    ],
+    "composers": [
+      "Papanasam Sivan"
+    ]
+  },
+  {
+    "title": "Kon\u1e0dalal\u014d Nelakonna",
+    "raagas": [
+      "Hindolam"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Garuda Gamana",
+    "raagas": [
+      "Hindolam"
+    ],
+    "composers": [
+      "Annamacharya"
+    ]
+  },
+  {
+    "title": "Karpanai endralum karchilai endralum",
+    "raagas": [
+      "Hindolam"
+    ],
+    "composers": [
+      "Vali-TMS"
+    ]
+  },
+  {
+    "title": "Adamodi Galade",
+    "raagas": [
+      "Charukesi"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
+  },
+  {
+    "title": "Kripaya p\u0101laya saure",
+    "raagas": [
+      "Charukesi"
+    ],
+    "composers": [
+      "Swati Tirunal"
+    ]
+  },
+  {
+    "title": "Innum En Manam varnam",
+    "raagas": [
+      "Charukesi"
+    ],
+    "composers": [
+      "Lalgudi Jayaraman"
+    ]
+  },
+  {
+    "title": "Samanyavalla Shri Hari",
+    "raagas": [
+      "Charukesi"
+    ],
+    "composers": [
+      "Purandaradasar"
+    ]
+  },
+  {
+    "title": "Karnataka Devagandhari",
+    "raagas": [
+      "Charukesi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Panchashat peetaroopini",
+    "raagas": [
+      "Charukesi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Kayarohanesham",
+    "raagas": [
+      "Charukesi"
+    ],
+    "composers": [
+      "Dikshithar"
+    ]
+  },
+  {
+    "title": "Eppadi padinaro",
+    "raagas": [
+      "Charukesi"
+    ],
+    "composers": [
+      "Sudhananda Bharathi"
+    ]
+  },
+  {
+    "title": "Entha cheluvage",
+    "raagas": [
+      "Charukesi"
+    ],
+    "composers": [
+      "Purandaradasar"
+    ]
+  },
+  {
+    "title": "Enta Nerchina",
+    "raagas": [
+      "Sudha Dhanyasi"
+    ],
+    "composers": [
+      "Tyagaraja"
+    ]
+  },
+  {
+    "title": "Himagiri Tanaye",
+    "raagas": [
+      "Sudha Dhanyasi"
+    ],
+    "composers": [
+      "Muttiah Bhagavathar"
+    ]
+  },
+  {
+    "title": "Subrahmanyena Rakshitom",
+    "raagas": [
+      "Sudha Dhanyasi"
+    ],
+    "composers": [
+      "Dikshithar"
+    ]
+  },
+  {
+    "title": "Narayana ninna",
+    "raagas": [
+      "Sudha Dhanyasi"
+    ],
+    "composers": [
+      "Purandaradasar"
+    ]
+  },
+  {
+    "title": "Bhavamulona",
+    "raagas": [
+      "Sudha Dhanyasi"
+    ],
+    "composers": [
+      "Annamayya"
+    ]
+  },
+  {
+    "title": "Varnam Viriboni",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": [
+      "Pacchimiriam Adiappayya"
+    ]
+  },
+  {
+    "title": "Upacharamu j\u0113sevarunnarani",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
+  },
+  {
+    "title": "Koluvaiyunnade",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
+  },
+  {
+    "title": "Upacharamulanu Chekonavayya Thyagaraja",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Enati nomu phalamo",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
+  },
+  {
+    "title": "Lalithe Sri Pravriddhe",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
+  },
+  {
+    "title": "Sri Kamalambayah Param",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": [
+      "Dikshithar"
+    ]
+  },
+  {
+    "title": "Chintaya Makanda",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": [
+      "Dikshithar"
+    ]
+  },
+  {
+    "title": "Balagopala Palayashumam",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": [
+      "Dikshithar"
+    ]
+  },
+  {
+    "title": "(Swarajati)Kamakshi Amba",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": [
+      "Syama Shastri"
+    ]
+  },
+  {
+    "title": "Yaro Ivar Yaro",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": [
+      "Arunachala Kavi"
+    ]
+  },
+  {
+    "title": "Nee Paadamule",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": [
+      "Patnam Subramania Iyer"
+    ]
+  },
+  {
+    "title": "Janani Mamava (5th navaratri kriti)",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": [
+      "Swathi Thirunal"
+    ]
+  },
+  {
+    "title": "Raghukula Thilamayi",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": [
+      "Swathi Thirunal"
+    ]
+  },
+  {
+    "title": "Eththanai kaettaalum",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": [
+      "Oottukkadu Venkata Kavi"
+    ]
+  },
+  {
+    "title": "Odi baariyya",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": [
+      "Purandara Dasar Indu enage govinda"
+    ]
+  },
+  {
+    "title": "Ikanannu brovakunna",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": [
+      "Pallavi Seshayyar"
+    ]
+  },
+  {
+    "title": "Keesu Keesendru",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": [
+      "Andal"
+    ]
+  },
+  {
+    "title": "(Padam) Rama Rama Prana sakhi",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "(Javali) Elaradayane kamini",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": [
+      "Chinnaiah"
+    ]
+  },
+  {
+    "title": "Sri Kamakshi",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": [
+      "Spencer Venugopal"
+    ]
+  },
+  {
+    "title": "Bilahai",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Intakannananda",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Dorakuna ituvanti",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Kanukontini",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": [
+      "Tyagaraja"
+    ]
+  },
+  {
+    "title": "Sri Balasubramanya",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": [
+      "Muthuswami Dikshitar"
+    ]
+  },
+  {
+    "title": "Smara Sada",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Aaradhayami",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Santhatham Bhajami",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": [
+      "Swathi Thirunal"
+    ]
+  },
+  {
+    "title": "Parithana michite",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": [
+      "Patnam Subramania Iyer"
+    ]
+  },
+  {
+    "title": "Sri Chamundeshwari",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": [
+      "Mysore Vasudevacharya"
+    ]
+  },
+  {
+    "title": "Pooraya Mama Kamam (Tharangam)",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": [
+      "Narayana Teertha"
+    ]
+  },
+  {
+    "title": "Raa ra venu gopala  (Swarajathi)",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": [
+      "Patnam Subramania Iyer"
+    ]
+  },
+  {
+    "title": "Intha Chouka (varnam)",
+    "raagas": [
+      "Bhairavi"
+    ],
+    "composers": [
+      "Veenai Kuppaiyer"
+    ]
+  },
+  {
+    "title": "Kaligiyunte",
+    "raagas": [
+      "Keeravani"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
+  },
+  {
+    "title": "Ambavani nannu",
+    "raagas": [
+      "Keeravani"
+    ],
+    "composers": [
+      "Muthiah Bhagavatar"
+    ]
+  },
+  {
+    "title": "Balasarasa Murali",
+    "raagas": [
+      "Keeravani"
+    ],
+    "composers": [
+      "Oottukkadu Venkata Kavi"
+    ]
+  },
+  {
+    "title": "Varamulosagi",
+    "raagas": [
+      "Keeravani"
+    ],
+    "composers": [
+      "Patnam Subramania Iyer"
+    ]
+  },
+  {
+    "title": "Devi neeye thunai",
+    "raagas": [
+      "Keeravani"
+    ],
+    "composers": [
+      "Papanasam Sivan"
+    ]
+  },
+  {
+    "title": "Innamum Sandeha Padalamo",
+    "raagas": [
+      "Keeravani"
+    ],
+    "composers": [
+      "Gopalakrishna Bharathi"
+    ]
+  },
+  {
+    "title": "vinayagane vinai theerpavane",
+    "raagas": [
+      "Keeravani"
+    ],
+    "composers": [
+      "Ulundhurpettai Shanmugam"
+    ]
+  },
+  {
+    "title": "Karunakarane Shivashankarane",
+    "raagas": [
+      "Keeravani"
+    ],
+    "composers": [
+      "Papanasam Sivan"
+    ]
+  },
+  {
+    "title": "Vaananai mathi soodiya",
+    "raagas": [
+      "Keeravani"
+    ],
+    "composers": [
+      "Appar"
+    ]
+  },
+  {
+    "title": "Manavyala kinchara",
+    "raagas": [
+      "Nalinakanthi"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
+  },
+  {
+    "title": "Nee Padhame Gathi Nalinakanthimathi",
+    "raagas": [
+      "Nalinakanthi"
+    ],
+    "composers": [
+      "GNB"
+    ]
+  },
+  {
+    "title": "Natajana Palini",
+    "raagas": [
+      "Nalinakanthi"
+    ],
+    "composers": [
+      "Tanjore Sankara Iyer"
+    ]
+  },
+  {
+    "title": "Neeve gathi varnam",
+    "raagas": [
+      "Nalinakanthi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Esane kotisurya prakasane",
+    "raagas": [
+      "Nalinakanthi"
+    ],
+    "composers": [
+      "Muthuthandavar"
+    ]
+  },
+  {
+    "title": "Kaliyuga varadan kankanda deivamai",
+    "raagas": [
+      "Brindavani"
+    ],
+    "composers": [
+      "Periyasamy Thooran"
+    ]
+  },
+  {
+    "title": "\u200bJagajjanani",
+    "raagas": [
+      "Rathipathipriya"
+    ],
+    "composers": [
+      "Ghanam Krishnaiyer"
+    ]
+  },
+  {
+    "title": "Bhagyada Lakshmi Baaramma",
+    "raagas": [
+      "Madhyamavathi"
+    ],
+    "composers": [
+      "Purandara Dasar"
+    ]
+  },
+  {
+    "title": "Nadupai",
+    "raagas": [
+      "Madhyamavathi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Muchchada brahma",
+    "raagas": [
+      "Madhyamavathi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Evariccirira",
+    "raagas": [
+      "Madhyamavathi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Rama Katha Sudharasa",
+    "raagas": [
+      "Madhyamavathi"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
+  },
+  {
+    "title": "Dharmasamvardhini",
+    "raagas": [
+      "Madhyamavathi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Mahatripurasundari",
+    "raagas": [
+      "Madhyamavathi"
+    ],
+    "composers": [
+      "Dikshithar"
+    ]
+  },
+  {
+    "title": "Palinchu kamakshi",
+    "raagas": [
+      "Madhyamavathi"
+    ],
+    "composers": [
+      "Shyama Sastri"
+    ]
+  },
+  {
+    "title": "Kosalendra mamavamita",
+    "raagas": [
+      "Madhyamavathi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Sarasamukha sarasijanabha",
+    "raagas": [
+      "Madhyamavathi"
+    ],
+    "composers": [
+      "Swathi Thirunal"
+    ]
+  },
+  {
+    "title": "Sharavanabhava Guhane",
+    "raagas": [
+      "Madhyamavathi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Karpagame Kan",
+    "raagas": [
+      "Madhyamavathi"
+    ],
+    "composers": [
+      "Papanasam Sivan"
+    ]
+  },
+  {
+    "title": "Aadaadhu Ashangaadhu vaa",
+    "raagas": [
+      "Madhyamavathi"
+    ],
+    "composers": [
+      "Oothukkadu Venkata Kavi"
+    ]
+  },
+  {
+    "title": "Adivo Alladivo",
+    "raagas": [
+      "Madhyamavathi"
+    ],
+    "composers": [
+      "Annamacharya"
+    ]
+  },
+  {
+    "title": "Shri Rama Jaya Bhuma",
+    "raagas": [
+      "Madhyamavathi"
+    ],
+    "composers": [
+      "Muthiah Bhagavatar"
+    ]
+  },
+  {
+    "title": "Harivarasanam",
+    "raagas": [
+      "Madhyamavathi"
+    ],
+    "composers": [
+      "K. Janaki Amma"
+    ]
+  },
+  {
+    "title": "Mayamalavagowla",
+    "raagas": [
+      "Madhyamavathi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Lambodara lakumikara",
+    "raagas": [
+      "Madhyamavathi"
+    ],
+    "composers": [
+      "Purandaradasa"
+    ]
+  },
+  {
+    "title": "Adikkondar",
+    "raagas": [
+      "Madhyamavathi"
+    ],
+    "composers": [
+      "Muthu Thandavar"
+    ]
+  },
+  {
+    "title": "Tulas\u012b da\u1e3bamulache",
+    "raagas": [
+      "Madhyamavathi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "M\u0113ru sam\u0101na v\u012bra",
+    "raagas": [
+      "Madhyamavathi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "D\u0113v\u012b \u015ar\u012b tulasamm\u0101",
+    "raagas": [
+      "Madhyamavathi"
+    ],
+    "composers": []
+  },
+  {
+    "title": "Vidulaku Mrokkeda",
+    "raagas": [
+      "Madhyamavathi"
+    ],
+    "composers": [
+      "Thyagaraja"
+    ]
+  },
+  {
+    "title": "D\u0113va D\u0113va Kalay\u0101mi",
+    "raagas": [
+      "Madhyamavathi"
+    ],
+    "composers": [
+      "Swathi Thirunal"
+    ]
+  },
+  {
+    "title": "M\u0101y\u0101t\u012bta Swar\u016bpi\u1e47i",
+    "raagas": [
+      "Madhyamavathi"
+    ],
+    "composers": [
+      "Ponnaiyya Pillai"
+    ]
+  },
+  {
+    "title": "\u015ar\u012bn\u0101th\u0101di Guruguho jayati",
+    "raagas": [
+      "Madhyamavathi"
+    ],
+    "composers": [
+      "Dikshitar"
+    ]
+  },
+  {
+    "title": "\u015ay\u0101mal\u0101mbik\u0113 p\u0101hi m\u0101\u1e43",
+    "raagas": [
+      "Madhyamavathi"
+    ],
+    "composers": [
+      "Dr. M. Balamuralikrishna"
+    ]
   }
 ]`;
 
