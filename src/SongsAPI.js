@@ -162,11 +162,13 @@ const songlist = `[
     ]
   },
   {
-    "title": "Ennai Nee Maravade of Dandapani Desikar",
+    "title": "Ennai Nee Maravade",
     "raagas": [
       "Amrithavarshini"
     ],
-    "composers": []
+    "composers": [
+      "Dandapani Desikar"
+    ]
   },
   {
     "title": "Sarasiruhanayane",
@@ -192,15 +194,17 @@ const songlist = `[
       "Amrithavarshini"
     ],
     "composers": [
-      "Balamuralikrishna"
+      "Dr. M. Balamuralikrishna"
     ]
   },
   {
-    "title": "Sthirata Nahi Nahi Re of Sadashiva Brahmendra",
+    "title": "Sthirata Nahi Nahi Re",
     "raagas": [
       "Amrithavarshini"
     ],
-    "composers": []
+    "composers": [
+      "Sadashiva Brahmendra"
+    ]
   },
   {
     "title": "Sudhamayee Sudhanidi",
@@ -2942,16 +2946,9 @@ const songlist = `[
     "composers": []
   },
   {
-    "title": "Thodi",
-    "raagas": [
-      "Kambhoji"
-    ],
-    "composers": []
-  },
-  {
     "title": "Koluvamaregada kodandapani",
     "raagas": [
-      "Kambhoji"
+      "Thodi"
     ],
     "composers": []
   },
